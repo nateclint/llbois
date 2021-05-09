@@ -12,9 +12,9 @@ function Item(props) {
     const [top, setTop] = useState(0)
     const [left, setLeft] = useState(0)
 
-    const disqusShortName = 'zangg'
+    const disqusShortName = 'llbois'
     const configDisqus = {
-        url: 'https://zangg-group08.web.app/item/' + productData.sku,
+        url: 'https://llbois-group08.web.app/item/' + productData.sku,
         identifier: productData.sku,
         title: productData.name
     }
@@ -86,7 +86,7 @@ function Item(props) {
 
                         <p style={{ fontSize: 0.9+ 'rem', fontWeight: 500 }}>
                             {"COLOR: "}
-                            <span style={{ color: '#2879fe', fontSize: 0.9 + 'rem', fontWeight: 500 }}>
+                            <span style={{ color: '#fe8e26', fontSize: 0.9 + 'rem', fontWeight: 500 }}>
                                 {imgColor}
                             </span>
                         </p>

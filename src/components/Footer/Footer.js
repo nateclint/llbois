@@ -121,7 +121,7 @@ function Footer() {
                     <li>ADDRESS: 44/9, Nguyen Thi Minh Khai, HCM</li>
                     <li>PHONE: (028) 37109999</li>
                     <li>WORK HOURS: 8am - 9pm</li>
-                    <li>EMAIL: zangg.fashion@gmail.com</li>
+                    <li>EMAIL: llbois.fashion@gmail.com</li>
                   </ul>
                 </div>
               </div>
@@ -134,12 +134,12 @@ function Footer() {
             <div className="ft-logo">
               <div className="logo">
                 <a href="/">
-                  <p className="logo-zangg">Zangg</p>
+                  <p className="logo-llbois">LLBois</p>
                 </a>
               </div>
 
               <div className="copyright">
-                <span>© Zangg 2020. All Rights Reserved</span>
+                <span>© LLBois 2020. All Rights Reserved</span>
               </div>
             </div>
           </div>

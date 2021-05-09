@@ -14,7 +14,7 @@ code {
 
 * {
   --animation-duration: 0.2s;
-  --color-primary: #2879fe;
+  --color-primary: #fe8e26;
 }
 
 ion-icon {
@@ -38,10 +38,10 @@ a.btn, button.btn, a.nav-link {
   text-transform: uppercase;
   padding: 10px 30px;
   border-width: 2px;
-  /* border: 2px solid #2879fe; */
+  /* border: 2px solid #fe8e26; */
   border-radius: 5px;
   font-size: .8rem;
-  /* color: #2879fe; */
+  /* color: #fe8e26; */
   transition: .3s ease .1s;
 }
 a.nav-link {
@@ -49,8 +49,8 @@ a.nav-link {
 }
 a.nav-link.active {
   background-color: transparent !important;
-  color: #2879fe !important;
-  border: 2px solid #2879fe;
+  color: #fe8e26 !important;
+  border: 2px solid #fe8e26;
 }
 input.form-control, select.form-control {
   width: 100%;
@@ -62,7 +62,7 @@ input.form-control, select.form-control {
   height: 100%;
 }
 input.form-control:focus, select.form-control:focus {
-  border: 1px solid #2879fe;
+  border: 1px solid #fe8e26;
 }
 
 /*HEADER*/
@@ -76,8 +76,8 @@ a:link, a:focus {
   margin-right: 30px;
 }
 
-.logo-zangg{
-  color: #2879fe;
+.logo-llbois{
+  color: #fe8e26;
   font-size: 1.5rem;
   font-weight: 700;
   margin: 0;
@@ -131,7 +131,7 @@ ul {
   padding: 8px 0 9px 0;
 }
 .selected>a{
-  color:  #2879fe !important;
+  color:  #fe8e26 !important;
 }
 
 .logo{
@@ -280,7 +280,7 @@ ul {
   padding-right: 10px;
 }
 .btn-dropdown-menu ul>li>a:hover{
-  color: #2879fe;
+  color: #fe8e26;
 }
 
 .btn-dropdown-toggle>ion-icon{
@@ -331,7 +331,7 @@ footer{
   margin-top: 60px;
 }
 footer .ft-custom-1{
-  background: #2879fe;
+  background: #fe8e26;
 }
 footer .wrapper{
   display: flex;
@@ -425,7 +425,7 @@ footer .ft-custom-2 div[class^="col-"]>.lists>span{
 }
 
 footer .ft-custom-2 div[class^="col-"]>.lists>ul>li>a:hover{
-  color: #2879fe;
+  color: #fe8e26;
 }
 
 footer .ft-custom-3 .ft-logo{

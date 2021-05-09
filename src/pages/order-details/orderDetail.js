@@ -125,8 +125,8 @@ function OrderDetail(props) {
                       <div className='border-bottom'></div>
 
                       <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: 1 + 'rem' }}>
-                        <div style={{ fontWeight: 500, color: '#2879fe', fontSize: 1.2 + 'rem' }}>Grand Total</div>
-                        <span style={{ fontWeight: 500, color: '#2879fe', fontSize: 1.2 + 'rem' }}>{`${currencyFormat(orders.amount / 100)}`}</span>
+                        <div style={{ fontWeight: 500, color: '#fe8e26', fontSize: 1.2 + 'rem' }}>Grand Total</div>
+                        <span style={{ fontWeight: 500, color: '#fe8e26', fontSize: 1.2 + 'rem' }}>{`${currencyFormat(orders.amount / 100)}`}</span>
                       </div>
 
 

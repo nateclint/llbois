@@ -41,7 +41,7 @@ function LoadingScreen() {
                 height: 500
             }}
         >
-            <section  {...containerProps} style={{ color: '#2879fe' }}>
+            <section  {...containerProps} style={{ color: '#fe8e26' }}>
                 {indicatorEl}
             </section>
         </div>

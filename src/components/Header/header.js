@@ -19,7 +19,7 @@ function Header() {
             <div className="header-holder">
               <div className="logo">
                 <Link to="/">
-                  <p className="logo-zangg">Zangg</p>
+                  <p className="logo-llbois">LLBois</p>
                 </Link>           
               </div>
 

@@ -147,7 +147,7 @@ class Home extends React.Component {
                                                 <div className="s4-decription-wrap">
                                                     <div className="dec-content sml">
                                                         {'WINTER '}
-                                                        <span style={{ color: '#2879fe' }}>2020</span>
+                                                        <span style={{ color: '#fe8e26' }}>2020</span>
                                                     </div>
                                                     <div className="dec-content big">NEW ARRIVALS</div>
                                                 </div>
@@ -161,7 +161,7 @@ class Home extends React.Component {
                                             <div className="s4-decription">
                                                 <div className="s4-decription-wrap">
                                                     <div className="dec-content sml">NEW COLLECTION</div>
-                                                    <div className="dec-content big" style={{ color: '#2879fe' }}>STREETSTYLE</div>
+                                                    <div className="dec-content big" style={{ color: '#fe8e26' }}>STREETSTYLE</div>
                                                 </div>
                                             </div>
                                         </Link>
@@ -175,7 +175,7 @@ class Home extends React.Component {
                                                     <div className="dec-content sml">GREAT SUMMER SALES</div>
                                                     <div className="dec-content big">
                                                         GET UP TO
-                                                    <span style={{ color: '#2879fe' }}>70% OFF</span>
+                                                    <span style={{ color: '#fe8e26' }}>70% OFF</span>
                                                     </div>
                                                 </div>
                                             </div>

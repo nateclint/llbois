@@ -43,7 +43,7 @@ class BannerSlider extends React.Component {
                                 </div>
 
                                 <div className="carousel-caption d-none d-md-block slide-3">
-                                    <h5>Zangg</h5>
+                                    <h5>LLBois</h5>
                                     <div>
                                         Find and Choose <br />
                                         Your Products

@@ -162,7 +162,7 @@ function ProductItem({ data }) {
 
                                     <p style={{ fontSize: 0.85 + 'rem', fontWeight: 500 }}>
                                         {"COLOR: "}
-                                        <span style={{ color: '#2879fe', fontSize: 0.85 + 'rem', fontWeight: 500 }}>
+                                        <span style={{ color: '#fe8e26', fontSize: 0.85 + 'rem', fontWeight: 500 }}>
                                             {imgColor}
                                         </span>
                                     </p>

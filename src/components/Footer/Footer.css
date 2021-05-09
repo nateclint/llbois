@@ -4,7 +4,7 @@ footer{
   margin-top: 60px;
 }
 footer .ft-custom-1{
-  background: #2879fe;
+  background: #fe8e26;
 }
 footer .wrapper{
   display: flex;
@@ -103,7 +103,7 @@ footer .ft-custom-2 div[class^="col-"]>.lists>span{
 }
 
 footer .ft-custom-2 div[class^="col-"]>.lists>ul>li>a:hover{
-  color: #2879fe;
+  color: #fe8e26;
 }
 
 footer .ft-custom-3 .ft-logo{

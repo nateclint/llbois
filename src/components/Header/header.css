@@ -9,8 +9,8 @@ a:link, a:focus, a:visited {
     margin-right: 30px;
 }
 
-.logo-zangg{
-    color: #2879fe;
+.logo-llbois{
+    color: #fe8e26;
     font-size: 1.5rem;
     font-weight: 700;
     margin: 0;
@@ -65,7 +65,7 @@ ul {
     padding: 8px 0 9px 0;
 }
 .selected>a{
-    color:  #2879fe !important;
+    color:  #fe8e26 !important;
 }
 
 .logo{

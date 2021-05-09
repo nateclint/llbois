@@ -1,0 +1,38 @@
+.message___noti{
+  color: #ef4f4f;
+  margin-bottom: 0.5rem;
+}
+
+
+
+.body___pass{
+  margin-top: 0.8rem;
+}
+
+.header___pass{
+  display: flex;
+  flex-direction: column;
+  padding: 0.8rem 0;
+}
+.header___pass>span:first-child{
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.header___pass>span:last-child{
+  font-size: 0.8rem;
+}
+
+.modal___message{
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal___message>span{
+
+  font-size: 1.3rem;
+  
+  margin: 1rem 0;
+}

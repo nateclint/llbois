@@ -1,4 +1,4 @@
-womens = [
+const womens = [
     {
         sku: '462',
         label: 'zara',
@@ -9,14 +9,17 @@ womens = [
         barcode: '123456789',
         tags: ['Sunglasses', 'Winter', 'Shorts', 'Cool', 'Nice'],
         status: 'Many in stock',
-        imgScr: './res/womens/tailored-polo/',  // Nhiều ảnh trong thư mục này :)
-        description: 'We are proud to present our best premium Shopify theme - Wokiee.\n' +
-                     'This is multi-purpose software that can be used for any type of the store. Great variety of available options will make customization process very easy.\n' +
-                     'Please, take a look at feature list and compare with our competitors.\n' +
-                     'You can buy our theme and start your business online with minimal time investments.\n' +
-                     'Wokiee support DropShipping app Oberlo.\n' +
-                     'Wokiee Shopify theme is powerfool tool to create personal webshop.',
-        colors: ['Blue', 'Green'],  // Từ đây lấy tên file trong thư mục ở trên
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque, nisl at convallis varius, arcu lacus aliquam enim, vitae aliquam magna urna quis odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque turpis velit, lacinia vel luctus vitae, sollicitudin ut justo.',
+        colors: [
+		    {
+			    color: 'Blue',
+			    imgSrc: '/assets/womens/tailored-polo/Blue-full.webp',
+		    },
+		    {
+			color: 'Green',
+			imgSrc: '/assets/womens/tailored-polo/Green-full.webp',
+		    }
+		],  // Từ đây lấy tên file trong thư mục ở trên
         size: [20, 24],
         material: '100% Polyester',
         reviews: [
@@ -46,14 +49,30 @@ womens = [
         barcode: '123456789',
         tags: ['Sunglasses', 'Winter', 'Shorts', 'Cool', 'Nice'],
         status: 'Many in stock',
-        imgScr: './res/womens/premier-jeans/',
-        description: 'We are proud to present our best premium Shopify theme - Wokiee.\n' +
-                     'This is multi-purpose software that can be used for any type of the store. Great variety of available options will make customization process very easy.\n' +
-                     'Please, take a look at feature list and compare with our competitors.\n' +
-                     'You can buy our theme and start your business online with minimal time investments.\n' +
-                     'Wokiee support DropShipping app Oberlo.\n' +
-                     'Wokiee Shopify theme is powerfool tool to create personal webshop.',
-        colors: ['Blue', 'Light Blue', 'Green', 'Pink', 'Orange'],
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque, nisl at convallis varius, arcu lacus aliquam enim, vitae aliquam magna urna quis odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque turpis velit, lacinia vel luctus vitae, sollicitudin ut justo.',
+        
+        colors: [
+		    {
+			    color: 'Blue',
+			    imgSrc: '/assets/womens/premier-jeans/Blue-full.webp',
+		    },
+		    {
+			    color: 'Light Blue',
+			    imgSrc: '/assets/womens/premier-jeans/Light Blue-full.webp',
+            },
+            {
+                color: 'Green',
+                imgSrc: '/assets/womens/premier-jeans/Green-full.webp',
+            },
+            {
+                color: 'Pink',
+                imgSrc: '/assets/womens/premier-jeans/Pink-full.webp',
+            },
+            {
+                color: 'Orange',
+                imgSrc: '/assets/womens/premier-jeans/Orange-full.webp',
+            },
+		],
         size: [20, 24],
         material: '100% Polyester',
         reviews: [
@@ -104,14 +123,18 @@ womens = [
         barcode: '123456789',
         tags: ['Vintage', 'Awesome', 'Summer', 'Beachwear'],
         status: 'Many in stock',
-        imgScr: './res/womens/relaxed-shirt/',
-        description: 'We are proud to present our best premium Shopify theme - Wokiee.\n' +
-                     'This is multi-purpose software that can be used for any type of the store. Great variety of available options will make customization process very easy.\n' +
-                     'Please, take a look at feature list and compare with our competitors.\n' +
-                     'You can buy our theme and start your business online with minimal time investments.\n' +
-                     'Wokiee support DropShipping app Oberlo.\n' +
-                     'Wokiee Shopify theme is powerfool tool to create personal webshop.',
-        colors: ['Gray', 'Green'],
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque, nisl at convallis varius, arcu lacus aliquam enim, vitae aliquam magna urna quis odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque turpis velit, lacinia vel luctus vitae, sollicitudin ut justo.',
+        colors: [
+		    {
+			    color: 'Gray',
+			    imgSrc: '/assets/womens/relaxed-shirt/Gray-full.webp',
+		    },
+            {
+                color: 'Green',
+                imgSrc: '/assets/womens/relaxed-shirt/Green-full.webp',
+            },
+           
+		],
         size: [20, 24],
         material: '100% Polyester',
         reviews: [
@@ -149,13 +172,23 @@ womens = [
         tags: ['Vintage', 'Awesome', 'Summer', 'Beachwear'],
         status: 'You can purchase this product but it\'s out of stock',
         imgScr: './res/womens/viscose-scarf/',
-        description: 'We are proud to present our best premium Shopify theme - Wokiee.\n' +
-                     'This is multi-purpose software that can be used for any type of the store. Great variety of available options will make customization process very easy.\n' +
-                     'Please, take a look at feature list and compare with our competitors.\n' +
-                     'You can buy our theme and start your business online with minimal time investments.\n' +
-                     'Wokiee support DropShipping app Oberlo.\n' +
-                     'Wokiee Shopify theme is powerfool tool to create personal webshop.',
-        colors: ['Light Blue', 'Blue', 'Black'],
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque, nisl at convallis varius, arcu lacus aliquam enim, vitae aliquam magna urna quis odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque turpis velit, lacinia vel luctus vitae, sollicitudin ut justo.',
+        
+        colors: [
+		    {
+			    color: 'Blue',
+			    imgSrc: '/assets/womens/viscose-scarf/Blue-full.webp',
+		    },
+		    {
+			    color: 'Light Blue',
+			    imgSrc: '/assets/womens/viscose-scarf/Light Blue-full.webp',
+            },
+            {
+                color: 'Black',
+                imgSrc: '/assets/womens/viscose-scarf/Black.webp',
+            },
+            
+		],
         size: [20, 24],
         material: '100% Polyester',
         reviews: [
@@ -178,9 +211,16 @@ womens = [
         barcode: '123456789',
         tags: ['Vintage', 'Awesome', 'Summer', 'Beachwear'],
         status: 'Many in stock',
-        imgScr: './res/womens/product-layout/',
-        description: '',
-        colors: ['Light Blue', 'Pink'],
+        description: 'No description for this product',
+        
+        colors: [
+		    
+		    {
+			    color: 'Light Blue',
+			    imgSrc: '/assets/womens/product-layout/Light Blue-full.webp',
+            },
+            
+		],
         size: [20, 24],
         material: '100% Polyester',
         reviews: [
@@ -203,15 +243,15 @@ womens = [
         barcode: '123456789',
         tags: ['Vintage', 'Awesome', 'Summer', 'Beachwear', 'Sunglasses'],
         status: 'Many in stock',
-        imgScr: './res/womens/rounded-sunglasses/',
-        description: 'We are proud to present our best premium Shopify theme - Wokiee.\n' +
-                     'This is multi-purpose software that can be used for any type of the store. Great variety of available options will make customization process very easy.\n' +
-                     'Please, take a look at feature list and compare with our competitors.\n' +
-                     'You can buy our theme and start your business online with minimal time investments.\n' +
-                     'Wokiee support DropShipping app Oberlo.\n' +
-                     'Wokiee Shopify theme is powerfool tool to create personal webshop.',
-        colors: ['Black'],
-        size: [20, 24],
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque, nisl at convallis varius, arcu lacus aliquam enim, vitae aliquam magna urna quis odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque turpis velit, lacinia vel luctus vitae, sollicitudin ut justo.',
+        
+        colors: [
+		    {
+			    color: 'Black',
+			    imgSrc: '/assets/womens/rounded-glasses/Black.webp',
+		    } 
+		],
+        size: [20, 24, 35, 40],
         material: '100% Polyester',
         reviews: []
     },
@@ -225,15 +265,14 @@ womens = [
         barcode: '123456789',
         tags: ['Sunglasses', 'Winter', 'Shorts', 'Cool', 'Nice'],
         status: 'Many in stock',
-        imgScr: './res/womens/woven-sunglasses/',
-        description: 'We are proud to present our best premium Shopify theme - Wokiee.\n' +
-                     'This is multi-purpose software that can be used for any type of the store. Great variety of available options will make customization process very easy.\n' +
-                     'Please, take a look at feature list and compare with our competitors.\n' +
-                     'You can buy our theme and start your business online with minimal time investments.\n' +
-                     'Wokiee support DropShipping app Oberlo.\n' +
-                     'Wokiee Shopify theme is powerfool tool to create personal webshop.',
-        colors: ['Yellow'],
-        size: [20, 24],
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque, nisl at convallis varius, arcu lacus aliquam enim, vitae aliquam magna urna quis odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque turpis velit, lacinia vel luctus vitae, sollicitudin ut justo.',
+        colors: [
+		    {
+			    color: 'Yellow',
+			    imgSrc: '/assets/womens/woven-glasses/Yellow.webp',
+		    }
+		],
+        size: [20, 24, 30, 35],
         material: '100% Polyester',
         reviews: [
             {
@@ -247,7 +286,7 @@ womens = [
     }
 ]
 exports.womens = womens
-mens = [
+const mens = [
     {
         sku: '16',
         label: 'lacoste',
@@ -258,14 +297,15 @@ mens = [
         barcode: '123456789',
         tags: ['Vintage', 'Awesome', 'Summer', 'Beachwear'],
         status: 'Many in stock',
-        imgScr: './res/womens/slimfit-shirt/',
-        description: 'We are proud to present our best premium Shopify theme - Wokiee.\n' +
-                     'This is multi-purpose software that can be used for any type of the store. Great variety of available options will make customization process very easy.\n' +
-                     'Please, take a look at feature list and compare with our competitors.\n' +
-                     'You can buy our theme and start your business online with minimal time investments.\n' +
-                     'Wokiee support DropShipping app Oberlo.\n' +
-                     'Wokiee Shopify theme is powerfool tool to create personal webshop.',
-        colors: ['White'],
+        
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque, nisl at convallis varius, arcu lacus aliquam enim, vitae aliquam magna urna quis odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque turpis velit, lacinia vel luctus vitae, sollicitudin ut justo.',
+        
+        colors: [
+		    {
+			    color: 'White',
+			    imgSrc: '/assets/mens/slimfit-shirt/White-full.webp',
+		    }
+		],
         size: [20, 24],
         material: '100% Polyester',
         reviews: []
@@ -280,14 +320,23 @@ mens = [
         barcode: '123456789',
         tags: ['Sunglasses', 'Winter', 'Cool', 'Shorts', 'Nice'],
         status: 'Many in stock',
-        imgScr: './res/womens/slimfit-shirt/',
-        description: 'We are proud to present our best premium Shopify theme - Wokiee.\n' +
-                     'This is multi-purpose software that can be used for any type of the store. Great variety of available options will make customization process very easy.\n' +
-                     'Please, take a look at feature list and compare with our competitors.\n' +
-                     'You can buy our theme and start your business online with minimal time investments.\n' +
-                     'Wokiee support DropShipping app Oberlo.\n' +
-                     'Wokiee Shopify theme is powerfool tool to create personal webshop.',
-        colors: ['Gray', 'Brown', 'Blue'],
+        
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque, nisl at convallis varius, arcu lacus aliquam enim, vitae aliquam magna urna quis odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque turpis velit, lacinia vel luctus vitae, sollicitudin ut justo.',
+        
+        colors: [
+		    {
+			    color: 'Blue',
+			    imgSrc: '/assets/mens/plaid-shirt/Blue-full.webp',
+            },
+            {
+			    color: 'Light Blue',
+			    imgSrc: '/assets/mens/plaid-shirt/Light Blue-full.webp',
+            },
+            {
+			    color: 'Pink',
+			    imgSrc: '/assets/mens/plaid-shirt/Pink-full.webp',
+		    },
+		],
         size: [20, 24],
         material: '100% Polyester',
         reviews: [
@@ -317,14 +366,16 @@ mens = [
         barcode: '123456789',
         tags: ['Vintage', 'Awesome', 'Summer', 'Beachwear'],
         status: 'Many in stock',
-        imgScr: './res/womens/vachetta-bag/',
-        description: 'We are proud to present our best premium Shopify theme - Wokiee.\n' +
-                     'This is multi-purpose software that can be used for any type of the store. Great variety of available options will make customization process very easy.\n' +
-                     'Please, take a look at feature list and compare with our competitors.\n' +
-                     'You can buy our theme and start your business online with minimal time investments.\n' +
-                     'Wokiee support DropShipping app Oberlo.\n' +
-                     'Wokiee Shopify theme is powerfool tool to create personal webshop.',
-        colors: ['Brown'],
+        
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque, nisl at convallis varius, arcu lacus aliquam enim, vitae aliquam magna urna quis odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque turpis velit, lacinia vel luctus vitae, sollicitudin ut justo.',
+        
+        colors: [
+		    {
+			    color: 'Brown',
+			    imgSrc: '/assets/mens/vachetta-bag/Brown.webp',
+            }
+            
+		],
         size: [20, 24],
         material: '100% Polyester',
         reviews: [
@@ -354,14 +405,19 @@ mens = [
         barcode: '123456789',
         tags: ['Sunglasses', 'Winter', 'Cool', 'Shorts', 'Nice'],
         status: 'Many in stock',
-        imgScr: './res/womens/douglas-belt/',
-        description: 'We are proud to present our best premium Shopify theme - Wokiee.\n' +
-                     'This is multi-purpose software that can be used for any type of the store. Great variety of available options will make customization process very easy.\n' +
-                     'Please, take a look at feature list and compare with our competitors.\n' +
-                     'You can buy our theme and start your business online with minimal time investments.\n' +
-                     'Wokiee support DropShipping app Oberlo.\n' +
-                     'Wokiee Shopify theme is powerfool tool to create personal webshop.',
-        colors: ['Brown', 'Black'],
+        
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque, nisl at convallis varius, arcu lacus aliquam enim, vitae aliquam magna urna quis odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque turpis velit, lacinia vel luctus vitae, sollicitudin ut justo.',
+        
+        colors: [
+		    {
+			    color: 'Brown',
+			    imgSrc: '/assets/mens/douglas-belt/Brown.webp',
+            },
+            {
+			    color: 'Black',
+			    imgSrc: '/assets/mens/douglas-belt/Black.webp',
+            },
+		],
         size: [20, 24],
         material: '100% Polyester',
         reviews: [
@@ -384,14 +440,15 @@ mens = [
         barcode: '123456789',
         tags: ['Sunglasses', 'Winter', 'Cool', 'Shorts', 'Nice'],
         status: 'Many in stock',
-        imgScr: './res/womens/custom-polo/',
-        description: 'We are proud to present our best premium Shopify theme - Wokiee.\n' +
-                     'This is multi-purpose software that can be used for any type of the store. Great variety of available options will make customization process very easy.\n' +
-                     'Please, take a look at feature list and compare with our competitors.\n' +
-                     'You can buy our theme and start your business online with minimal time investments.\n' +
-                     'Wokiee support DropShipping app Oberlo.\n' +
-                     'Wokiee Shopify theme is powerfool tool to create personal webshop.',
-        colors: ['White'],
+        
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque, nisl at convallis varius, arcu lacus aliquam enim, vitae aliquam magna urna quis odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque turpis velit, lacinia vel luctus vitae, sollicitudin ut justo.',
+        
+        colors: [
+		    {
+			    color: 'White',
+			    imgSrc: '/assets/mens/custom-polo/White-front.webp',
+            }
+		],
         size: [20, 24],
         material: '100% Polyester',
         reviews: [
@@ -427,7 +484,7 @@ mens = [
     }
 ]
 exports.mens = mens
-shoes = [
+const shoes = [
     {
         sku: '244',
         label: 'polo',
@@ -438,14 +495,24 @@ shoes = [
         barcode: '123456789',
         tags: ['Vintage', 'Awesome', 'Summer', 'Beachwear'],
         status: 'Many in stock',
-        imgScr: './res/womens/raxon-sneaker/',
-        description: 'We are proud to present our best premium Shopify theme - Wokiee.\n' +
-                     'This is multi-purpose software that can be used for any type of the store. Great variety of available options will make customization process very easy.\n' +
-                     'Please, take a look at feature list and compare with our competitors.\n' +
-                     'You can buy our theme and start your business online with minimal time investments.\n' +
-                     'Wokiee support DropShipping app Oberlo.\n' +
-                     'Wokiee Shopify theme is powerfool tool to create personal webshop.',
-        colors: ['Gray', 'Brown', 'Blue'],
+        
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque, nisl at convallis varius, arcu lacus aliquam enim, vitae aliquam magna urna quis odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque turpis velit, lacinia vel luctus vitae, sollicitudin ut justo.',
+        
+        colors: [
+		    {
+			    color: 'Blue',
+			    imgSrc: '/assets/shoes/faxon-sneaker/Blue.webp',
+            },
+            {
+			    color: 'Brown',
+			    imgSrc: '/assets/shoes/faxon-sneaker/Brown.webp',
+            },
+            {
+			    color: 'Gray',
+			    imgSrc: '/assets/shoes/faxon-sneaker/Gray.webp',
+		    },
+        ],
+        
         size: [20, 24],
         material: '100% Polyester',
         reviews: [
@@ -468,14 +535,16 @@ shoes = [
         barcode: '123456789',
         tags: ['Sunglasses', 'Winter', 'Cool', 'Shorts', 'Nice'],
         status: 'Many in stock',
-        imgScr: './res/womens/rae-sandal/',
-        description: 'We are proud to present our best premium Shopify theme - Wokiee.\n' +
-                     'This is multi-purpose software that can be used for any type of the store. Great variety of available options will make customization process very easy.\n' +
-                     'Please, take a look at feature list and compare with our competitors.\n' +
-                     'You can buy our theme and start your business online with minimal time investments.\n' +
-                     'Wokiee support DropShipping app Oberlo.\n' +
-                     'Wokiee Shopify theme is powerfool tool to create personal webshop.',
-        colors: ['Brown'],
+        
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque, nisl at convallis varius, arcu lacus aliquam enim, vitae aliquam magna urna quis odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque turpis velit, lacinia vel luctus vitae, sollicitudin ut justo.',
+        
+        colors: [
+		    {
+			    color: 'Pink',
+			    imgSrc: '/assets/shoes/pink-sneaker/Pink.webp',
+            }
+        ],
+        
         size: [20, 24],
         material: '100% Polyester',
         reviews: [
@@ -505,34 +574,45 @@ shoes = [
         barcode: '123456789',
         tags: ['Vintage', 'Awesome', 'Summer', 'Beachwear'],
         status: 'Many in stock',
-        imgScr: './res/womens/pink-sneaker/',
-        description: 'We are proud to present our best premium Shopify theme - Wokiee.\n' +
-                     'This is multi-purpose software that can be used for any type of the store. Great variety of available options will make customization process very easy.\n' +
-                     'Please, take a look at feature list and compare with our competitors.\n' +
-                     'You can buy our theme and start your business online with minimal time investments.\n' +
-                     'Wokiee support DropShipping app Oberlo.\n' +
-                     'Wokiee Shopify theme is powerfool tool to create personal webshop.',
-        colors: ['Pink'],
+        
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque, nisl at convallis varius, arcu lacus aliquam enim, vitae aliquam magna urna quis odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque turpis velit, lacinia vel luctus vitae, sollicitudin ut justo.',
+        
+        colors: [
+		    {
+			    color: 'Brown',
+			    imgSrc: '/assets/shoes/rae-sandal/Brown.webp',
+            }
+        ],
+        
         size: [20, 24],
         material: '100% Polyester',
         reviews: []
     }
 ]
 exports.shoes = shoes
-users = [
+const users = [
     {
         fullName: 'Nguyễn Gia Hưng',
         username: 'ng_hung',
-        dob: '11-24-1999',
+        dob: '1999-11-24',
         gender: 'Male',
         phone: '0123456789',
         email: 'abc@xyz.com',
-        imgSrc: './res/profile/default-profile.png',
+        imgSrc: '/assets/profile/default-profile.png',
         billing: [
             {
                 name: 'Nguyễn Gia Hưng',
                 address: 'HCM City',
-                cardNumber: '0123 4567 8901 2345'
+                cardNumber: '0123 4567 8901 2345',
+                bankName: 'BankJS',
+                default: true
+            },
+            {
+                name: 'Nguyễn Gia Hưng',
+                address: 'HCM City',
+                cardNumber: '1111 2222 3333 4444',
+                bankName: 'DeveloBank',
+                default: false
             }
         ],
         shoppingHistory: [

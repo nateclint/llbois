@@ -1,0 +1,59 @@
+.payment{
+  padding-top: 50px;
+}
+
+.payment .title{
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.delivery_detail,
+.delivery_products,
+.payment_method{
+  padding: 1.2rem 0;
+}
+
+.payment .check_out{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.payment_method .___inprocess{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.___inprocess>span{
+  margin-left: 1rem;
+}
+
+.box___buynow{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #2879fe;
+  border-radius: 8px;
+  background-color: #fff;
+  padding: 2rem 0;
+}
+
+.box___buynow>.btn___buynow{
+  margin: 1rem 0;
+}
+
+.card___container{
+  display: flex;
+  flex-direction: column;
+}
+
+.card___info{
+  border: 2px solid #2879fe;
+  padding: 1rem;
+  border-radius: 8px;
+  margin: 1rem 0;
+}

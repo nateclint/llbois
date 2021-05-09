@@ -1,0 +1,14 @@
+.order___detail{
+  padding: 50px;
+  border-radius: 3px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  margin: 1.5rem 0;
+}
+
+.order___info{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}

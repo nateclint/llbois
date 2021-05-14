@@ -34,7 +34,7 @@ function Header() {
 
                       
                       <li className="dropdown">
-                        <Link to="/womens">WOMEN</Link>
+                        <Link to="/phone">PHONE</Link>
 
                         <div className="dropdown-menu">
                           <div className="row">
@@ -42,26 +42,26 @@ function Header() {
                               <div className="row col-list">
                                 <div className="col-sm-4">
                                   <Link to className="title-submenu">
-                                    TOPS
+                                    APPLE
                                     <img src="assets/header/mm_04_400x.png" alt="" />
                                   </Link>
                                   <ul>
-                                    <li>Awesome</li>
-                                    <li>Comming Soon</li>
-                                    <li>Comming Soon</li>
-                                    <li>Comming Soon</li>
+                                    <li>iPhone 12 Pro</li>
+                                    <li>Coming Soon</li>
+                                    <li>Coming Soon</li>
+                                    <li>Coming Soon</li>
                                   </ul>
                                 </div>
                                 <div className="col-sm-4">
                                   <Link to className="title-submenu">
-                                    BOTTOMS
+                                    SAMSUNG
                                     <img src="assets/header/mm_05_400x.png" alt="" />
                                   </Link>
                                   <ul>
-                                    <li>Jeans</li>
-                                    <li>Comming Soon</li>
-                                    <li>Comming Soon</li>
-                                    <li>Comming Soon</li>
+                                    <li>Galaxy S21</li>
+                                    <li>Coming Soon</li>
+                                    <li>Coming Soon</li>
+                                    <li>Coming Soon</li>
                                   </ul>
                                 </div>
                                 <div className="col-sm-4">
@@ -70,10 +70,10 @@ function Header() {
                                     <img src="assets/header/mm_06_400x.png" alt="" />
                                   </Link>
                                   <ul>
-                                    <li>Shirt</li>
-                                    <li>Comming Soon</li>
-                                    <li>Comming Soon</li>
-                                    <li>Comming Soon</li>
+                                    <li>ANKER PowerCore Elite 20000mAh</li>
+                                    <li>Coming Soon</li>
+                                    <li>Coming Soon</li>
+                                    <li>Coming Soon</li>
                                   </ul>
                                 </div>
                               </div>
@@ -98,7 +98,7 @@ function Header() {
                         </div>
                       </li>
                       <li className="dropdown">
-                        <Link to="/mens">MEN</Link>
+                        <Link to="/tablet">TABLET</Link>
 
                         <div className="dropdown-menu">
                           <div className="row">
@@ -106,26 +106,26 @@ function Header() {
                               <div className="row col-list">
                                 <div className="col-sm-4">
                                   <Link className="title-submenu">
-                                    TOPS
+                                    APPLE
                                     <img src="assets/header/mm_04_400x.png" alt="" />
                                   </Link>
                                   <ul>
-                                    <li>Awesome</li>
-                                    <li>Comming Soon</li>
-                                    <li>Comming Soon</li>
-                                    <li>Comming Soon</li>
+                                    <li>iPhone 12 Pro</li>
+                                    <li>Coming Soon</li>
+                                    <li>Coming Soon</li>
+                                    <li>Coming Soon</li>
                                   </ul>
                                 </div>
                                 <div className="col-sm-4">
                                   <Link className="title-submenu">
-                                    BOTTOMS
+                                    SAMSUNG
                                     <img src="assets/header/mm_05_400x.png" alt="" />
                                   </Link>
                                   <ul>
-                                    <li>Jeans</li>
-                                    <li>Comming Soon</li>
-                                    <li>Comming Soon</li>
-                                    <li>Comming Soon</li>
+                                    <li>Galaxy S21</li>
+                                    <li>Coming Soon</li>
+                                    <li>Coming Soon</li>
+                                    <li>Coming Soon</li>
                                   </ul>
                                 </div>
                                 <div className="col-sm-4">
@@ -134,10 +134,10 @@ function Header() {
                                     <img src="assets/header/mm_06_400x.png" alt="" />
                                   </Link>
                                   <ul>
-                                    <li>Shirt</li>
-                                    <li>Comming Soon</li>
-                                    <li>Comming Soon</li>
-                                    <li>Comming Soon</li>
+                                    <li>ANKER PowerCore Elite 20000mAh</li>
+                                    <li>Coming Soon</li>
+                                    <li>Coming Soon</li>
+                                    <li>Coming Soon</li>
                                   </ul>
                                 </div>
                               </div>

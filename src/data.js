@@ -1,11 +1,11 @@
-const womens = [
+const phone = [
     {
         sku: '462',
-        label: 'zara',
-        name: 'Tailored Fit Mesh-Panel Polo',
+        label: 'lenovo',
+        name: 'LenovoPhone1',
         price: 450.0,
         salePrice: .13,
-        productType: 'polo',
+        productType: 'Phone',
         barcode: '123456789',
         tags: ['Sunglasses', 'Winter', 'Shorts', 'Cool', 'Nice'],
         status: 'Many in stock',
@@ -13,11 +13,11 @@ const womens = [
         colors: [
 		    {
 			    color: 'Blue',
-			    imgSrc: '/assets/womens/tailored-polo/Blue-full.webp',
+			    imgSrc: '/assets/phone/tailored-polo/Blue-full.webp',
 		    },
 		    {
 			color: 'Green',
-			imgSrc: '/assets/womens/tailored-polo/Green-full.webp',
+			imgSrc: '/assets/phone/tailored-polo/Green-full.webp',
 		    }
 		],  // Từ đây lấy tên file trong thư mục ở trên
         size: [20, 24],
@@ -41,11 +41,11 @@ const womens = [
     },
     {
         sku: '445',
-        label: 'gap',
-        name: 'Premier Cropped Skinny Jean',
+        label: 'huawei',
+        name: 'HuaweiPhone1',
         price: 380.0,
         salePrice: 0,
-        productType: 'jeans',
+        productType: 'phone',
         barcode: '123456789',
         tags: ['Sunglasses', 'Winter', 'Shorts', 'Cool', 'Nice'],
         status: 'Many in stock',
@@ -54,23 +54,23 @@ const womens = [
         colors: [
 		    {
 			    color: 'Blue',
-			    imgSrc: '/assets/womens/premier-jeans/Blue-full.webp',
+			    imgSrc: '/assets/phone/premier-jeans/Blue-full.webp',
 		    },
 		    {
 			    color: 'Light Blue',
-			    imgSrc: '/assets/womens/premier-jeans/Light Blue-full.webp',
+			    imgSrc: '/assets/phone/premier-jeans/Light Blue-full.webp',
             },
             {
                 color: 'Green',
-                imgSrc: '/assets/womens/premier-jeans/Green-full.webp',
+                imgSrc: '/assets/phone/premier-jeans/Green-full.webp',
             },
             {
                 color: 'Pink',
-                imgSrc: '/assets/womens/premier-jeans/Pink-full.webp',
+                imgSrc: '/assets/phone/premier-jeans/Pink-full.webp',
             },
             {
                 color: 'Orange',
-                imgSrc: '/assets/womens/premier-jeans/Orange-full.webp',
+                imgSrc: '/assets/phone/premier-jeans/Orange-full.webp',
             },
 		],
         size: [20, 24],
@@ -115,11 +115,11 @@ const womens = [
     },
     {
         sku: '493',
-        label: 'guess',
-        name: 'Relaxed-Fit Cotton Shirt',
+        label: 'asus',
+        name: 'AsusPhone1',
         price: 480.0,
         salePrice: 0,
-        productType: 'shirt',
+        productType: 'Phone',
         barcode: '123456789',
         tags: ['Vintage', 'Awesome', 'Summer', 'Beachwear'],
         status: 'Many in stock',
@@ -127,11 +127,11 @@ const womens = [
         colors: [
 		    {
 			    color: 'Gray',
-			    imgSrc: '/assets/womens/relaxed-shirt/Gray-full.webp',
+			    imgSrc: '/assets/phone/relaxed-shirt/Gray-full.webp',
 		    },
             {
                 color: 'Green',
-                imgSrc: '/assets/womens/relaxed-shirt/Green-full.webp',
+                imgSrc: '/assets/phone/relaxed-shirt/Green-full.webp',
             },
            
 		],
@@ -163,29 +163,29 @@ const womens = [
     },
     {
         sku: '481',
-        label: 'lacoste',
-        name: 'Viscose-Cashmere Scarf',
+        label: 'samsung',
+        name: 'SamsungPhone1',
         price: 440.0,
         salePrice: 0,
-        productType: 'scarf',
+        productType: 'Phone',
         barcode: '123456789',
         tags: ['Vintage', 'Awesome', 'Summer', 'Beachwear'],
         status: 'You can purchase this product but it\'s out of stock',
-        imgScr: './res/womens/viscose-scarf/',
+        imgScr: './res/phone/viscose-scarf/',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque, nisl at convallis varius, arcu lacus aliquam enim, vitae aliquam magna urna quis odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque turpis velit, lacinia vel luctus vitae, sollicitudin ut justo.',
         
         colors: [
 		    {
 			    color: 'Blue',
-			    imgSrc: '/assets/womens/viscose-scarf/Blue-full.webp',
+			    imgSrc: '/assets/phone/viscose-scarf/Blue-full.webp',
 		    },
 		    {
 			    color: 'Light Blue',
-			    imgSrc: '/assets/womens/viscose-scarf/Light Blue-full.webp',
+			    imgSrc: '/assets/phone/viscose-scarf/Light Blue-full.webp',
             },
             {
                 color: 'Black',
-                imgSrc: '/assets/womens/viscose-scarf/Black.webp',
+                imgSrc: '/assets/phone/viscose-scarf/Black.webp',
             },
             
 		],
@@ -203,11 +203,11 @@ const womens = [
     },
     {
         sku: '501',
-        label: 'levis',
-        name: 'Product Layout',
+        label: 'Apple',
+        name: 'ApplePhone1',
         price: 500.0,
         salePrice: 0,
-        productType: 'shirt',
+        productType: 'Phone',
         barcode: '123456789',
         tags: ['Vintage', 'Awesome', 'Summer', 'Beachwear'],
         status: 'Many in stock',
@@ -217,7 +217,7 @@ const womens = [
 		    
 		    {
 			    color: 'Light Blue',
-			    imgSrc: '/assets/womens/product-layout/Light Blue-full.webp',
+			    imgSrc: '/assets/phone/product-layout/Light Blue-full.webp',
             },
             
 		],
@@ -235,11 +235,11 @@ const womens = [
     },
     {
         sku: '34',
-        label: 'polo',
-        name: 'Rounded Cat Eye Sunglasses',
+        label: 'oppo',
+        name: 'OppoPhone1',
         price: 180.0,
         salePrice: 0,
-        productType: 'sunglasses',
+        productType: 'Phone',
         barcode: '123456789',
         tags: ['Vintage', 'Awesome', 'Summer', 'Beachwear', 'Sunglasses'],
         status: 'Many in stock',
@@ -248,7 +248,7 @@ const womens = [
         colors: [
 		    {
 			    color: 'Black',
-			    imgSrc: '/assets/womens/rounded-glasses/Black.webp',
+			    imgSrc: '/assets/phone/rounded-glasses/Black.webp',
 		    } 
 		],
         size: [20, 24, 35, 40],
@@ -257,11 +257,11 @@ const womens = [
     },
     {
         sku: '43',
-        label: 'levis',
-        name: 'Woven Shield Sunglasses',
+        label: 'apple',
+        name: 'ApplePhone2',
         price: 360.0,
         salePrice: 0,
-        productType: 'sunglasses',
+        productType: 'Phone',
         barcode: '123456789',
         tags: ['Sunglasses', 'Winter', 'Shorts', 'Cool', 'Nice'],
         status: 'Many in stock',
@@ -269,7 +269,7 @@ const womens = [
         colors: [
 		    {
 			    color: 'Yellow',
-			    imgSrc: '/assets/womens/woven-glasses/Yellow.webp',
+			    imgSrc: '/assets/phone/woven-glasses/Yellow.webp',
 		    }
 		],
         size: [20, 24, 30, 35],
@@ -285,15 +285,15 @@ const womens = [
         ]
     }
 ]
-exports.womens = womens
-const mens = [
+exports.phone = phone
+const tablet = [
     {
         sku: '16',
-        label: 'lacoste',
-        name: 'Slim-Fit Cotton Poplin Shirt',
+        label: 'samsung',
+        name: 'SamsungTablet1',
         price: 320.0,
         salePrice: 0,
-        productType: 'shirt',
+        productType: 'Tablet',
         barcode: '123456789',
         tags: ['Vintage', 'Awesome', 'Summer', 'Beachwear'],
         status: 'Many in stock',
@@ -303,7 +303,7 @@ const mens = [
         colors: [
 		    {
 			    color: 'White',
-			    imgSrc: '/assets/mens/slimfit-shirt/White-full.webp',
+			    imgSrc: '/assets/tablet/slimfit-shirt/White-full.webp',
 		    }
 		],
         size: [20, 24],
@@ -312,11 +312,11 @@ const mens = [
     },
     {
         sku: '2519',
-        label: 'levis',
-        name: 'Plaid Cotton Oxford Shirt',
+        label: 'apple',
+        name: 'AppleTablet1',
         price: 20.0,
         salePrice: 0,
-        productType: 'shirt',
+        productType: 'Tablet',
         barcode: '123456789',
         tags: ['Sunglasses', 'Winter', 'Cool', 'Shorts', 'Nice'],
         status: 'Many in stock',
@@ -326,15 +326,15 @@ const mens = [
         colors: [
 		    {
 			    color: 'Blue',
-			    imgSrc: '/assets/mens/plaid-shirt/Blue-full.webp',
+			    imgSrc: '/assets/tablet/plaid-shirt/Blue-full.webp',
             },
             {
 			    color: 'Light Blue',
-			    imgSrc: '/assets/mens/plaid-shirt/Light Blue-full.webp',
+			    imgSrc: '/assets/tablet/plaid-shirt/Light Blue-full.webp',
             },
             {
 			    color: 'Pink',
-			    imgSrc: '/assets/mens/plaid-shirt/Pink-full.webp',
+			    imgSrc: '/assets/tablet/plaid-shirt/Pink-full.webp',
 		    },
 		],
         size: [20, 24],
@@ -358,11 +358,11 @@ const mens = [
     },
     {
         sku: '18',
-        label: 'levis',
-        name: 'Vachetta Sahara Duffel Bag',
+        label: 'Apple',
+        name: 'AppleTablet2',
         price: 360.0,
         salePrice: 0,
-        productType: 'bag',
+        productType: 'Tablet',
         barcode: '123456789',
         tags: ['Vintage', 'Awesome', 'Summer', 'Beachwear'],
         status: 'Many in stock',
@@ -372,7 +372,7 @@ const mens = [
         colors: [
 		    {
 			    color: 'Brown',
-			    imgSrc: '/assets/mens/vachetta-bag/Brown.webp',
+			    imgSrc: '/assets/tablet/vachetta-bag/Brown.webp',
             }
             
 		],
@@ -397,11 +397,11 @@ const mens = [
     },
     {
         sku: '6',
-        label: 'levis',
-        name: 'Douglas Calfskin Buckle Belt',
+        label: 'Apple',
+        name: 'AppleTablet3',
         price: 120.0,
         salePrice: 0,
-        productType: 'belt',
+        productType: 'Tablet',
         barcode: '123456789',
         tags: ['Sunglasses', 'Winter', 'Cool', 'Shorts', 'Nice'],
         status: 'Many in stock',
@@ -411,11 +411,11 @@ const mens = [
         colors: [
 		    {
 			    color: 'Brown',
-			    imgSrc: '/assets/mens/douglas-belt/Brown.webp',
+			    imgSrc: '/assets/tablet/douglas-belt/Brown.webp',
             },
             {
 			    color: 'Black',
-			    imgSrc: '/assets/mens/douglas-belt/Black.webp',
+			    imgSrc: '/assets/tablet/douglas-belt/Black.webp',
             },
 		],
         size: [20, 24],
@@ -432,11 +432,11 @@ const mens = [
     },
     {
         sku: '4',
-        label: 'lacoste',
-        name: 'Custom Fit Soft-Touch Polo',
+        label: 'samsung',
+        name: 'SamsungTablet2',
         price: 80.0,
         salePrice: 0,
-        productType: 'polo',
+        productType: 'Tablet',
         barcode: '123456789',
         tags: ['Sunglasses', 'Winter', 'Cool', 'Shorts', 'Nice'],
         status: 'Many in stock',
@@ -446,7 +446,7 @@ const mens = [
         colors: [
 		    {
 			    color: 'White',
-			    imgSrc: '/assets/mens/custom-polo/White-front.webp',
+			    imgSrc: '/assets/tablet/custom-polo/White-front.webp',
             }
 		],
         size: [20, 24],
@@ -483,15 +483,15 @@ const mens = [
         ]
     }
 ]
-exports.mens = mens
-const shoes = [
+exports.tablet = tablet
+const smartwatch = [
     {
         sku: '244',
-        label: 'polo',
-        name: 'Raxon Chambray Low-Top Sneaker',
+        label: 'apple',
+        name: 'AppleWatch1',
         price: 480.0,
         salePrice: 0,
-        productType: 'shoes',
+        productType: 'smartwatch',
         barcode: '123456789',
         tags: ['Vintage', 'Awesome', 'Summer', 'Beachwear'],
         status: 'Many in stock',
@@ -501,15 +501,15 @@ const shoes = [
         colors: [
 		    {
 			    color: 'Blue',
-			    imgSrc: '/assets/shoes/faxon-sneaker/Blue.webp',
+			    imgSrc: '/assets/smartwatch/faxon-sneaker/Blue.webp',
             },
             {
 			    color: 'Brown',
-			    imgSrc: '/assets/shoes/faxon-sneaker/Brown.webp',
+			    imgSrc: '/assets/smartwatch/faxon-sneaker/Brown.webp',
             },
             {
 			    color: 'Gray',
-			    imgSrc: '/assets/shoes/faxon-sneaker/Gray.webp',
+			    imgSrc: '/assets/smartwatch/faxon-sneaker/Gray.webp',
 		    },
         ],
         
@@ -527,11 +527,11 @@ const shoes = [
     },
     {
         sku: '30',
-        label: 'guess',
-        name: 'Rae Suede Sandal',
+        label: 'samsung',
+        name: 'SamsungWatch1',
         price: 100.0,
         salePrice: 0,
-        productType: 'shoes',
+        productType: 'smartwatch',
         barcode: '123456789',
         tags: ['Sunglasses', 'Winter', 'Cool', 'Shorts', 'Nice'],
         status: 'Many in stock',
@@ -541,7 +541,7 @@ const shoes = [
         colors: [
 		    {
 			    color: 'Pink',
-			    imgSrc: '/assets/shoes/pink-sneaker/Pink.webp',
+			    imgSrc: '/assets/smartwatch/pink-sneaker/Pink.webp',
             }
         ],
         
@@ -566,11 +566,11 @@ const shoes = [
     },
     {
         sku: '28',
-        label: 'polo',
-        name: 'Pink Pony Leather Sneaker',
+        label: 'apple',
+        name: 'AppleWatch2',
         price: 60.0,
         salePrice: 0,
-        productType: 'shoes',
+        productType: 'smartwatch',
         barcode: '123456789',
         tags: ['Vintage', 'Awesome', 'Summer', 'Beachwear'],
         status: 'Many in stock',
@@ -580,7 +580,7 @@ const shoes = [
         colors: [
 		    {
 			    color: 'Brown',
-			    imgSrc: '/assets/shoes/rae-sandal/Brown.webp',
+			    imgSrc: '/assets/smartwatch/rae-sandal/Brown.webp',
             }
         ],
         
@@ -589,7 +589,7 @@ const shoes = [
         reviews: []
     }
 ]
-exports.shoes = shoes
+exports.smartwatch = smartwatch
 const users = [
     {
         fullName: 'Nguyễn Gia Hưng',

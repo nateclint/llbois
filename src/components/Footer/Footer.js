@@ -86,10 +86,10 @@ function Footer() {
                 <h4>CATEGORIES</h4>
                 <div className="lists">
                   <ul>
-                    <li><Link to="/womens">Women</Link></li>
-                    <li><Link to="/mens">Men</Link></li>
+                    <li><Link to="/phone">Phone</Link></li>
+                    <li><Link to="/tablet">Tablet</Link></li>
                     <li><Link to="/">Accessories</Link></li>
-                    <li><Link to="/shoes">Shoes</Link></li>
+                    <li><Link to="/smartwatch">Smart Watch</Link></li>
                     <li><Link to="/">New Arrivals</Link></li>
                   </ul>
                 </div>
@@ -139,7 +139,7 @@ function Footer() {
               </div>
 
               <div className="copyright">
-                <span>© LLBois 2020. All Rights Reserved</span>
+                <span>© LLBois 2021. All Rights Reserved</span>
               </div>
             </div>
           </div>

@@ -3,7 +3,7 @@ import SearchRoundedIcon from '@material-ui/icons/SearchRounded';
 import Drawer from '@material-ui/core/Drawer'
 import TextField from '@material-ui/core/TextField';
 import { useState, useEffect } from 'react';
-import {womens, mens, shoes} from '../../../data'
+import {phone as phone, tablet, smartwatch} from '../../../data'
 import ProductItem from '../../ProductItem/ProductItem'
 import CloseIcon from '@material-ui/icons/Close';
 import './Search.css'
@@ -11,7 +11,7 @@ import './Search.css'
 function SearchBtn(props) {
     const [top, setTop] = useState(false)
     const [searchValue, setSearchValue] = useState('')
-    const [data, setData] = useState([...womens, ...mens, ...shoes])
+    const [data, setData] = useState([...phone, ...tablet, ...smartwatch])
     const [found, setFound] = useState([])
     useEffect(() => {
         watchValue(searchValue)
@@ -74,7 +74,7 @@ function SearchBtn(props) {
                                 justifyContent: 'space-between',
                                 alignItems: 'center'
                             }}>
-                                <h5>What are you looking for ?</h5>
+                                <h5>What are you looking for?</h5>
                                 <span onClick={handleCloseSearch}>
                                     <CloseIcon style={{ fontSize: 20 }}/>
                                 </span>

@@ -18,36 +18,30 @@ class BannerSlider extends React.Component {
                             <div className="carousel-item active">
                                 <img src="assets/slider/home1_01.png" className="d-block w-100" alt="Happy" />
                                 <div className="carousel-caption d-none d-md-block slide-1">
-                                    <h5>Multiple choices</h5>
-                                    <p>Premium <br />Elit libero</p>
+                                    <h5>Best Sites to Buy</h5>
+                                    <p>MOBILE PHONE</p>
                                     <button className="btn btn-primary">GO SHOPPING</button>
                                 </div>
                             </div>
                             <div className="carousel-item">
                                 <img src="assets/slider/home1_02.png" className="d-block w-100" alt="Dreamy" />
                                 <div className="carousel-caption d-none d-md-block slide-2">
-                                    <h5>Ready To</h5>
+                                    <h5>We also have</h5>
                                     <div>
-                                        Use Unique <br />
-                                        Fashion
+                                        Unique <br />
+                                        Accessories
                                     </div>
                                     <button className="btn btn-primary">GO SHOPPING</button>
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <div className="vid-cover d-block w-100">
-                                    <video className="d-block w-100" autoPlay preload="true" poster="assets/slider/slider_video_x1024.png">
-                                        <source src="assets/slider/home1_03.mp4" type="video/mp4" />
-                                        Video is not working
-                                    </video>
-                                </div>
-
+                            <img src="assets/slider/home1_03.png" className="d-block w-100" alt="Dreamy" />
                                 <div className="carousel-caption d-none d-md-block slide-3">
-                                    <h5>LLBois</h5>
-                                    <div>
+                                    <h1>LLBois</h1>
+                                    <h4>
                                         Find and Choose <br />
                                         Your Products
-                                    </div>
+                                    </h4>
                                     <button className="btn btn-primary">GO SHOPPING</button>
                                 </div>
                             </div>

@@ -2,7 +2,7 @@ import React from 'react'
 import './home.css'
 import { Link } from 'react-router-dom';
 import BannerSlider from '../../components/BannerSlider/BannerSlider'
-import { womens, mens } from '../../data'
+import { phone, tablet } from '../../data'
 import ProductItem from '../../components/ProductItem/ProductItem'
 //import Footer from '../../components/Footer/Footer'
 //import Header from '../../components/Header/header'
@@ -12,7 +12,7 @@ class Home extends React.Component {
         super(props)
 
         this.state = {
-            items: womens.concat(mens)
+            items: phone.concat(tablet)
         }
 
     }
@@ -54,12 +54,12 @@ class Home extends React.Component {
                                                 </Link>
                                             </div>
                                             <div className="col-sm-6">
-                                                <Link to='/womens' className="promo-box hover-scale">
+                                                <Link to='/phone' className="promo-box hover-scale">
                                                     <img className="" alt="Pic" src="assets/pagecontent/section-2/demo01_06_307x.jpg" srcset={`assets/pagecontent/section-2/demo01_06_307x.jpg 1x, assets/pagecontent/section-2/demo01_06_614x.jpg 2x`} />
 
                                                     <div className="s2-decription">
                                                         <div className="s2-decription-wrap">
-                                                            <div className="dec-content">WOMEN</div>
+                                                            <div className="dec-content">PHONE</div>
                                                         </div>
                                                     </div>
                                                 </Link>
@@ -69,12 +69,12 @@ class Home extends React.Component {
                                     <div className="col-sm-12 col-md-6">
                                         <div className="row">
                                             <div className="col-sm-6">
-                                                <Link to='/mens' className="promo-box hover-scale">
+                                                <Link to='/tablet' className="promo-box hover-scale">
                                                     <img className="" alt="Pic" src="assets/pagecontent/section-2/demo01_05_307x.jpg" srcset={`assets/pagecontent/section-2/demo01_05_307x.jpg 1x, assets/pagecontent/section-2/demo01_05_614x.jpg 2x`} />
 
                                                     <div className="s2-decription">
                                                         <div className="s2-decription-wrap">
-                                                            <div className="dec-content">MEN</div>
+                                                            <div className="dec-content">TABLET</div>
                                                         </div>
                                                     </div>
                                                 </Link>
@@ -141,13 +141,13 @@ class Home extends React.Component {
                                 <div className="row-custom">
                                     <div className="col-sm-6 col-md-4 col-12-440width">
                                         <a href className="promo-box hover-scale">
-                                            <img className="" alt="Pic" src="/assets/pagecontent/section-4/demo01_10_415x.webp" srcset="/assets/pagecontent/section-4/demo01_10_415x.webp 1x, /assets/pagecontent/section-4/demo01_10_830x.jpg 2x" />
+                                            <img className="" alt="Pic" src="/assets/pagecontent/section-4/demo01_10_415x.jpg" srcset="/assets/pagecontent/section-4/demo01_10_415x.jpg 1x, /assets/pagecontent/section-4/demo01_10_830x.jpg 2x" />
 
                                             <div className="s4-decription">
                                                 <div className="s4-decription-wrap">
                                                     <div className="dec-content sml">
-                                                        {'WINTER '}
-                                                        <span style={{ color: '#fe8e26' }}>2020</span>
+                                                        {'SUMMER '}
+                                                        <span style={{ color: '#fe8e26' }}>2021</span>
                                                     </div>
                                                     <div className="dec-content big">NEW ARRIVALS</div>
                                                 </div>
@@ -161,7 +161,7 @@ class Home extends React.Component {
                                             <div className="s4-decription">
                                                 <div className="s4-decription-wrap">
                                                     <div className="dec-content sml">NEW COLLECTION</div>
-                                                    <div className="dec-content big" style={{ color: '#fe8e26' }}>STREETSTYLE</div>
+                                                    <div className="dec-content big" style={{ color: '#fe8e26' }}>WARRIOR</div>
                                                 </div>
                                             </div>
                                         </Link>
@@ -175,7 +175,7 @@ class Home extends React.Component {
                                                     <div className="dec-content sml">GREAT SUMMER SALES</div>
                                                     <div className="dec-content big">
                                                         GET UP TO
-                                                    <span style={{ color: '#fe8e26' }}>70% OFF</span>
+                                                    <span style={{ color: '#fe8e26' }}> 70% OFF</span>
                                                     </div>
                                                 </div>
                                             </div>

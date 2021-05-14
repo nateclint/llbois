@@ -2,9 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
 
 import Home from '../pages/home/home';
-import Mens from '../pages/catalog/mens';
-import Womens from '../pages/catalog/womens';
-import Shoes from '../pages/catalog/shoes';
+import Tablet from '../pages/catalog/tablet';
+import Phone from '../pages/catalog/phone';
+import Smartwatch from '../pages/catalog/smartwatch';
 import Item from '../pages/item/item';
 import Cart from '../pages/cart/cart';
 import LoginPage from '../pages/login/login';
@@ -67,9 +67,9 @@ export default function MainRouter() {
 
             <Route exact path='/' component={Home} />
             <Route path='/cart' component={Cart} />
-            <Route exact path='/mens' component={Mens} />
-            <Route exact path='/womens' component={Womens} />
-            <Route exact path='/shoes' component={Shoes} />
+            <Route exact path='/tablet' component={Tablet} />
+            <Route exact path='/phone' component={Phone} />
+            <Route exact path='/smartwatch' component={Smartwatch} />
             <Route exact path='/item/:sku' component={Item} />
             <Route exact path='/order/:orderID'
                 render={() => {

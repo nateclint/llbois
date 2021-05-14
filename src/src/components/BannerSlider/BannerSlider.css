@@ -1,0 +1,55 @@
+.carousel-caption {
+  bottom: 60px !important;
+}
+.carousel-item > .slide-1 > h5 {
+  color: #fe8e26;
+  font-size: 2rem;
+  font-family: "Hind", sans-serif;
+}
+
+.carousel-item > .slide-1 > p {
+  color: #000;
+  font-size: 4rem;
+  font-weight: 500;
+  font-family: "Hind", sans-serif;
+  margin-bottom: 2rem;
+}
+
+.carousel-item > .slide-2 > h5 {
+  color: #fff;
+  font-size: 2.5rem;
+  font-family: "Hind", sans-serif;
+}
+
+.carousel-item > .slide-3 > h5 {
+  color: #fe8e26;
+  font-size: 2.5rem;
+  font-weight: 300;
+  font-family: "Hind", sans-serif;
+}
+.carousel-item > .slide-2 > div,
+.carousel-item > .slide-3 > div {
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 500;
+  font-family: "Hind", sans-serif;
+  margin-bottom: 2rem;
+}
+
+.carousel-caption > button {
+  padding: 12px 40px;
+}
+
+.carousel-item > .slide-3 > h1 {
+  color: #fe8e26;
+  font-size: 2.5rem;
+  font-weight: 300;
+  font-family: "Hind", sans-serif;
+}
+
+.carousel-item > .slide-3 > h4 {
+  color: rgb(20, 69, 231);
+  font-size: 2.5rem;
+  font-weight: 300;
+  font-family: "Hind", sans-serif;
+}

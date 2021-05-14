@@ -1,0 +1,241 @@
+/*HEADER*/
+a:link, a:focus, a:visited {
+    text-decoration: none !important;
+    outline: 0 !important;
+    border: none !important; 
+}
+.logo>a{
+    display: block;
+    margin-right: 30px;
+}
+
+.logo-llbois{
+    color: #fe8e26;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.shop-section-header{
+    width: 100%;
+    height: 57px;
+    background: #fff;
+}
+.desktop-header{
+    box-shadow: 0px 0px 8px rgb(0, 0, 0, 0.3);
+    width: 100%;
+    position: fixed;
+    min-height: 45px;
+    z-index: 30;
+    background: #fff;
+}
+
+.header-holder{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    padding: 8px 0;
+    
+}
+
+.nav-holder>nav>ul{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-holder>nav>ul>li>a{
+    color: #000;
+    font-size: 0.85rem;
+    letter-spacing: 0.1rem;
+}
+
+.nav-holder>nav>ul>li{
+    padding: 8px 0 9px 0;
+}
+.selected>a{
+    color:  #fe8e26 !important;
+}
+
+.logo{
+    order: 1;
+}
+
+.menu{
+    flex: 2 1 auto;
+    order: 1;
+}
+
+.options{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    order: 3;
+    right: 0;
+}
+
+.search-icon,
+.cart-icon,
+.user{
+    
+    padding: 0 10px;
+}
+
+
+
+
+
+.btn-dropdown-toggle{
+    background: none;
+    border: none;
+    outline: none;
+    padding: 1px 1px; 
+}
+
+.options>.search-icon,
+.options>.user
+{
+    margin: 3px 7px;
+}
+
+.btn-dropdown-toggle:focus{
+    outline: none;
+}
+
+.btn-dropdown-toggle:focus
+
+.menu>.nav-holder>nav>ul>.dropdown:hover .dropdown-menu{
+    display: block;
+    top: 50px;
+}
+
+.dropdown{
+    position: inherit !important;
+    
+}
+.dropdown-menu{
+    display: none;
+    width: 100%;
+    top: -10000px;
+    padding: 33px 39px 39px 39px !important;
+    position: absolute;
+    left: 0;
+    transition: all 0.3 ease-in-out 0.1s;
+}
+
+.title-submenu img {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+
+.dropdown-menu ul>li{
+    color: #777777;
+    letter-spacing: 0.03rem;
+    font-size: 0.8rem;
+    padding: 5px 0; 
+}
+
+.title-submenu{
+    color: #191919;
+    letter-spacing: 0.03rem;
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+
+.promo-02{
+    display: block;
+    position: relative;
+
+}
+
+.promo-02>img{
+    width: 100%;
+    height: auto;
+}
+
+.promo-02 .promo-decription{
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; 
+}
+
+.promo-txt-wrapper{
+    padding: 30px;
+    color: #fff;
+}
+
+.promo-txt-wrapper .small-promo{
+    font-size: 1rem;
+   
+    font-weight: 500;
+}
+
+.promo-txt-wrapper .big-promo{
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.promo-txt-wrapper>p{
+    font-size: 0.8rem;
+    letter-spacing: 0.03rem ;
+}
+
+.promo-txt-wrapper>span{
+    position: absolute;
+    bottom: 30px;
+    text-decoration: underline;
+    font-weight: 500;
+    letter-spacing: 0.05rem;
+}
+
+
+
+
+
+/*
+    HEADER
+    CSS BUTTON DROPDOWN MENU
+*/
+
+
+
+.search-area>div{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 5rem;
+}
+
+
+@media(max-width: 500px){
+    .shop-section-header .menu{
+        display: none;
+    }
+
+    .header-holder{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+}

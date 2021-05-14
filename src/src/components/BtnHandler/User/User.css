@@ -1,0 +1,56 @@
+.btn-dropdown-menu{
+  display: none;
+  position: absolute;
+  right: 0;
+  width: 218px;
+  background:#fff;
+  box-shadow: 0 0 10px rgb(0, 0, 0, 0.08);
+  top: 100%;
+  padding: 20px;
+}
+.btn-dropdown-menu ul>li{
+  color: #777777;
+  font-size: 0.9rem;
+}
+
+.btn-dropdown-menu ul>li>span{
+  color: #191919;
+  font-size: 0.85rem;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.btn-dropdown-menu ul>li>a{
+  color: #777777;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+}
+.btn-dropdown-menu ul>li>a>ion-icon{
+  padding-right: 10px;
+}
+.btn-dropdown-menu ul>li>a:hover{
+  color: #fe8e26;
+}
+
+.btn-dropdown-toggle>ion-icon{
+  pointer-events: none;
+}
+.btn-dropdown-menu .welcome{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.btn-dropdown-menu .welcome .email{
+  white-space: nowrap; 
+  width: 100%; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  color: #191919;
+  font-size: 0.85rem;
+  font-style: italic;
+  font-weight: 500;
+}

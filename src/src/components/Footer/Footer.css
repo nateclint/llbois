@@ -1,0 +1,120 @@
+/*FOOTER*/
+
+footer{
+  margin-top: 60px;
+}
+footer .ft-custom-1{
+  background: #fe8e26;
+}
+footer .wrapper{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+
+footer .ft-custom-1 .wrap-left,
+footer .ft-custom-1 .wrap-right{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+footer .newsletter{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+footer .n-title{
+  margin: 0 0 0 0;
+}
+footer .form-gr>form{
+  margin: 0;
+  display: flex;
+  justify-content: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  flex: 0 0 auto;
+  width: 100%;
+}
+
+footer .ft-custom-1 .list-social-icons>a{
+  color: #fff;
+  padding: 0 10px;
+}
+
+footer .ft-custom-1 .list-social-icons>a:hover{
+  color: #191919;
+}
+
+footer .form-gr>form>button{
+  color: #fff;
+  background-color: #303030;
+  border-radius: 0 5px 5px 0;
+  font-size: 0.8rem;
+  height: 37px;
+  width: 120px;
+  line-height: 0.5rem;
+  word-break: keep-all;  
+}
+
+footer .form-gr>form>button:hover{
+  color: #fff;
+  background-color: #191919; 
+}
+
+footer .form-gr>form>input{
+  background-color: #fff;
+  border-radius: 5px 0 0 5px;
+  font-size: 0.9rem;
+  padding: 6px 10px;
+  border: 1px solid #999999;
+  width: 450px;
+}
+footer .form-gr>form>input:focus{
+  outline: none;
+  border: 1px solid #191919;
+}
+
+
+footer .ft-custom-2{
+  background: #f7f8fa;
+  padding-bottom: 55px;
+}
+footer .ft-custom-2 div[class^="col-"]{
+  margin-top: 55px;
+}
+
+footer .ft-custom-2 div[class^="col-"]>h4{
+  font-size: 1rem;
+  padding-bottom: 20px;
+}
+
+footer .ft-custom-2 div[class^="col-"]>.lists>ul>li,
+footer .ft-custom-2 div[class^="col-"]>.lists>ul>li>a,
+footer .ft-custom-2 div[class^="col-"]>.lists>span{
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #5a5a5a;
+  letter-spacing: 0.01rem;
+  padding-bottom: 0.2rem;
+}
+
+footer .ft-custom-2 div[class^="col-"]>.lists>ul>li>a:hover{
+  color: #fe8e26;
+}
+
+footer .ft-custom-3 .ft-logo{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 15px 0;
+}
+
+footer .ft-custom-3 .ft-logo .copyright>span{
+  font-size: 0.8rem;
+  color: #777777;
+}

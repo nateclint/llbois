@@ -13,11 +13,11 @@ const phone = [
         colors: [
 		    {
 			    color: 'Sage Green',
-			    imgSrc: '/assets/phone/google/google-pixel-5/GooglePixel5_5G_SageGreen.jpg',
+			    imgSrc: '/assets/phone/google/GooglePixel5_5G_SageGreen.jpg',
 		    },
 		    {
 			color: 'Black',
-			imgSrc: '/assets/phone/google/google-pixel-5/GooglePixel5_5G_Black.jpg',
+			imgSrc: '/assets/phone/google/GooglePixel5_5G_Black.jpg',
 		    }
 		],  // Từ đây lấy tên file trong thư mục ở trên
         size: [128],
@@ -63,23 +63,23 @@ const phone = [
         colors: [
 		    {
 			    color: 'Black',
-			    imgSrc: '/assets/phone/huawei/Huawei-Mate-40-Pro/HuaweiMate40Pro_5G_Black.jpg',
+			    imgSrc: '/assets/phone/huawei/HuaweiMate40Pro_5G_Black.jpg',
 		    },
 		    {
 			    color: 'Silver',
-			    imgSrc: '/assets/phone/huawei/Huawei-Mate-40-Pro/HuaweiMate40Pro_5G_Silver.jpg',
+			    imgSrc: '/assets/phone/huawei/HuaweiMate40Pro_5G_Silver.jpg',
             },
             {
                 color: 'White',
-                imgSrc: '/assets/phone/huawei/Huawei-Mate-40-Pro/HuaweiMate40Pro_5G_White.jpg',
+                imgSrc: '/assets/phone/huawei/HuaweiMate40Pro_5G_White.jpg',
             },
             {
                 color: 'Green',
-                imgSrc: '/assets/phone/huawei/Huawei-Mate-40-Pro/HuaweiMate40Pro_5G_Green.jpg',
+                imgSrc: '/assets/phone/huawei/HuaweiMate40Pro_5G_Green.jpg',
             },
             {
                 color: 'Yellow',
-                imgSrc: '/assets/phone/huawei/Huawei-Mate-40-Pro/HuaweiMate40Pro_5G_Yellow.jpg',
+                imgSrc: '/assets/phone/huawei/HuaweiMate40Pro_5G_Yellow.jpg',
             },
 		],
         size: [256, 512],

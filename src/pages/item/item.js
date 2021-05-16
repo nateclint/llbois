@@ -80,7 +80,7 @@ function Item(props) {
                         <h4>{productData.name}</h4>
                         <h4 className="modal-prod-price">{"$" + productData.price}</h4>
 
-                        <div className='prod___description' style={{ paddingTop: 30, paddingBottom: 30 }}>
+                        <div className='prod___description' style={{ paddingTop: 30, paddingBottom: 30 , whiteSpace:"pre-line"}}>
                             {productData.description}
                         </div>
 

@@ -49,17 +49,7 @@ const phone = [
         barcode: '123456789',
         tags: ['Huawei', 'Phone', 'Huawei Mate', '5G', '256GB', '512GB'],
         status: 'Many in stock',
-        description: 'Huawei Mate 40 Pro is officially announced on October 22, 2020.',
-//The dimension of the device is 162.9 x 75.5 x 9.1 mm while it weighs 212 grams. The device is powered by the Kirin 9000 5G Octa-core processor while the GPU is Mali-G78 MP24. The smartphone is pack with 8 GB RAM and 256 GB internal storage.
-
-//The smartphone comes with an OLED 6.76 inches screen size and the resolution is 1344 x 2772 pixels. It is IP68 dust/water resistant and built with a glass front, glass back, and aluminum frame.
-
-//The rear camera consists of a 50 MP (wide) omnidirectional + 12 MP (periscope telephoto) optical zoom + 20 MP (ultrawide) while on the front there is 13 MP (wide) + TOF 3D (depth/biometrics sensor) camera.
-
-//Huawei Mate 40 Pro includes sensors such as Face ID, fingerprint (under display, optical), accelerometer, gyro, proximity, barometer, compass, and color spectrum. The smartphone is fueled by a Non-removable Li-Po 4400 mAh battery + Fast battery charging 66W + Fast wireless charging 50W+ Reverse wireless charging 5W.
-
-//It comes in colors such as Mystic Silver, White, Black, Green, and Yellow. The phone runs on the Android 10.0 + EMUI 11 operating system.',
-        
+        description: 'Huawei Mate 40 Pro is officially announced on October 22, 2020. \n The dimension of the device is 162.9 x 75.5 x 9.1 mm while it weighs 212 grams. \n The device is powered by the Kirin 9000 5G Octa-core processor while the GPU is Mali-G78 MP24. \n The smartphone is pack with 8 GB RAM and 256 GB internal storage. \n The smartphone comes with an OLED 6.76 inches screen size and the resolution is 1344 x 2772 pixels. \n It is IP68 dust/water resistant and built with a glass front, glass back, and aluminum frame. \n The rear camera consists of a 50 MP (wide) omnidirectional + 12 MP (periscope telephoto) optical zoom + 20 MP (ultrawide) while on the front there is 13 MP (wide) + TOF 3D (depth/biometrics sensor) camera. \n Huawei Mate 40 Pro includes sensors such as Face ID, fingerprint (under display, optical), accelerometer, gyro, proximity, barometer, compass, and color spectrum. \n The smartphone is fueled by a Non-removable Li-Po 4400 mAh battery + Fast battery charging 66W + Fast wireless charging 50W+ Reverse wireless charging 5W \n It comes in colors such as Mystic Silver, White, Black, Green, and Yellow. \n The phone runs on the Android 10.0 + EMUI 11 operating system.',
         colors: [
 		    {
 			    color: 'Black',

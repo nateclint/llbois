@@ -1,26 +1,26 @@
 const phone = [
     {
-        sku: '462',
-        label: 'lenovo',
-        name: 'LenovoPhone1',
-        price: 450.0,
+        sku: 'PGG462',
+        label: 'google',
+        name: 'Google Pixel 5',
+        price: 699.0,
         salePrice: .13,
         productType: 'Phone',
         barcode: '123456789',
-        tags: ['Sunglasses', 'Winter', 'Shorts', 'Cool', 'Nice'],
+        tags: ['Google', 'Phone', 'Google Pixel', '5G', '128GB'],
         status: 'Many in stock',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque, nisl at convallis varius, arcu lacus aliquam enim, vitae aliquam magna urna quis odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque turpis velit, lacinia vel luctus vitae, sollicitudin ut justo.',
+        description: 'Google Pixel 5 is not a flagship model as the specs show. The phone is powered by the Snapdragon 765G chipset, which supports 5G, 8GB RAM, and 128GB storage. There are a dual-camera setup and a fingerprint on the back. A 6-inch OLED display with a 90Hz refresh rate and 8MP selfie camera are presented at the front. Google Pixel 5 is powered by a 4080mAh battery and Android 11.',
         colors: [
 		    {
-			    color: 'Blue',
-			    imgSrc: '/assets/phone/tailored-polo/Blue-full.webp',
+			    color: 'Sage Green',
+			    imgSrc: '/assets/phone/google/google-pixel-5/GooglePixel5_5G_SageGreen.jpg',
 		    },
 		    {
-			color: 'Green',
-			imgSrc: '/assets/phone/tailored-polo/Green-full.webp',
+			color: 'Black',
+			imgSrc: '/assets/phone/google/google-pixel-5/GooglePixel5_5G_Black.jpg',
 		    }
 		],  // Từ đây lấy tên file trong thư mục ở trên
-        size: [20, 24],
+        size: [128],
         material: '100% Polyester',
         reviews: [
             {
@@ -40,40 +40,49 @@ const phone = [
         ]
     },
     {
-        sku: '445',
+        sku: 'PHW445',
         label: 'huawei',
-        name: 'HuaweiPhone1',
-        price: 380.0,
+        name: 'Huawei Mate 40 Pro',
+        price: 1099.99,
         salePrice: 0,
-        productType: 'phone',
+        productType: 'Phone',
         barcode: '123456789',
-        tags: ['Sunglasses', 'Winter', 'Shorts', 'Cool', 'Nice'],
+        tags: ['Huawei', 'Phone', 'Huawei Mate', '5G', '256GB', '512GB'],
         status: 'Many in stock',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque, nisl at convallis varius, arcu lacus aliquam enim, vitae aliquam magna urna quis odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque turpis velit, lacinia vel luctus vitae, sollicitudin ut justo.',
+        description: 'Huawei Mate 40 Pro is officially announced on October 22, 2020.',
+//The dimension of the device is 162.9 x 75.5 x 9.1 mm while it weighs 212 grams. The device is powered by the Kirin 9000 5G Octa-core processor while the GPU is Mali-G78 MP24. The smartphone is pack with 8 GB RAM and 256 GB internal storage.
+
+//The smartphone comes with an OLED 6.76 inches screen size and the resolution is 1344 x 2772 pixels. It is IP68 dust/water resistant and built with a glass front, glass back, and aluminum frame.
+
+//The rear camera consists of a 50 MP (wide) omnidirectional + 12 MP (periscope telephoto) optical zoom + 20 MP (ultrawide) while on the front there is 13 MP (wide) + TOF 3D (depth/biometrics sensor) camera.
+
+//Huawei Mate 40 Pro includes sensors such as Face ID, fingerprint (under display, optical), accelerometer, gyro, proximity, barometer, compass, and color spectrum. The smartphone is fueled by a Non-removable Li-Po 4400 mAh battery + Fast battery charging 66W + Fast wireless charging 50W+ Reverse wireless charging 5W.
+
+//It comes in colors such as Mystic Silver, White, Black, Green, and Yellow. The phone runs on the Android 10.0 + EMUI 11 operating system.',
         
         colors: [
 		    {
-			    color: 'Blue',
-			    imgSrc: '/assets/phone/premier-jeans/Blue-full.webp',
+			    color: 'Black',
+			    imgSrc: '/assets/phone/huawei/Huawei-Mate-40-Pro/HuaweiMate40Pro_5G_Black.jpg',
 		    },
 		    {
-			    color: 'Light Blue',
-			    imgSrc: '/assets/phone/premier-jeans/Light Blue-full.webp',
+			    color: 'Silver',
+			    imgSrc: '/assets/phone/huawei/Huawei-Mate-40-Pro/HuaweiMate40Pro_5G_Silver.jpg',
+            },
+            {
+                color: 'White',
+                imgSrc: '/assets/phone/huawei/Huawei-Mate-40-Pro/HuaweiMate40Pro_5G_White.jpg',
             },
             {
                 color: 'Green',
-                imgSrc: '/assets/phone/premier-jeans/Green-full.webp',
+                imgSrc: '/assets/phone/huawei/Huawei-Mate-40-Pro/HuaweiMate40Pro_5G_Green.jpg',
             },
             {
-                color: 'Pink',
-                imgSrc: '/assets/phone/premier-jeans/Pink-full.webp',
-            },
-            {
-                color: 'Orange',
-                imgSrc: '/assets/phone/premier-jeans/Orange-full.webp',
+                color: 'Yellow',
+                imgSrc: '/assets/phone/huawei/Huawei-Mate-40-Pro/HuaweiMate40Pro_5G_Yellow.jpg',
             },
 		],
-        size: [20, 24],
+        size: [256, 512],
         material: '100% Polyester',
         reviews: [
             {

@@ -347,60 +347,68 @@ const phone = [
 exports.phone = phone
 const tablet = [
     {
-        sku: '16',
+        sku: 'TSS16',
         label: 'samsung',
-        name: 'SamsungTablet1',
-        price: 320.0,
+        name: 'Samsung Galaxy Tab S7+',
+        price: 349.99,
         salePrice: 0,
         productType: 'Tablet',
         barcode: '123456789',
-        tags: ['Vintage', 'Awesome', 'Summer', 'Beachwear'],
+        tags: ['Samsung', 'Tablet', 'Galaxy Tab S', '128GB', '256GB', '512GB'],
         status: 'Many in stock',
         
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque, nisl at convallis varius, arcu lacus aliquam enim, vitae aliquam magna urna quis odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque turpis velit, lacinia vel luctus vitae, sollicitudin ut justo.',
+        description: 'Meet Galaxy Tab S7 and S7+. Work and play on the ultra smooth 120Hz display, \n powered by our most powerful chipset. Get a PC-like experience with the snap \n of a keyboard, or use the ultra low latency S Pen to write like never before. \n An immersive tablet experience changing the way you work and play.',
         
         colors: [
 		    {
-			    color: 'White',
-			    imgSrc: '/assets/tablet/slimfit-shirt/White-full.webp',
-		    }
+			    color: 'Mystic Navy',
+			    imgSrc: '/assets/tablet/samsung/galaxy-tab-s7-plus-mystic-navy.jpg',
+		    },
+            {
+			    color: 'Mystic Black',
+			    imgSrc: '/assets/tablet/samsung/galaxy-tab-s7-plus-mystic-black.jpg',
+		    },
+            {
+			    color: 'Mystic Bronze',
+			    imgSrc: '/assets/tablet/samsung/galaxy-tab-s7-plus-mystic-bronze.jpg',
+		    },
+            {
+			    color: 'Mystic Silver',
+			    imgSrc: '/assets/tablet/samsung/galaxy-tab-s7-plus-mystic-silver.jpg',
+		    },
 		],
-        size: [20, 24],
+        size: [128, 256, 512],
         material: '100% Polyester',
         reviews: []
     },
     {
-        sku: '2519',
+        sku: 'TAP2519',
         label: 'apple',
-        name: 'AppleTablet1',
-        price: 20.0,
+        name: 'iPad Pro 2021',
+        price: 2199.0,
         salePrice: 0,
         productType: 'Tablet',
         barcode: '123456789',
-        tags: ['Sunglasses', 'Winter', 'Cool', 'Shorts', 'Nice'],
+        tags: ['Apple', 'Tablet', 'iPad Pro', '128GB', '256GB', '512GB', '1TB', '2TB'],
         status: 'Many in stock',
         
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque, nisl at convallis varius, arcu lacus aliquam enim, vitae aliquam magna urna quis odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque turpis velit, lacinia vel luctus vitae, sollicitudin ut justo.',
+        description: 'Apple introduces new iPad Pro featuring breakthrough M1 chip, ultra-fast 5G, and stunning 12.9-inch Liquid Retina XDR display',
         
         colors: [
 		    {
-			    color: 'Blue',
-			    imgSrc: '/assets/tablet/plaid-shirt/Blue-full.webp',
+			    color: 'Space Gray',
+			    imgSrc: '/assets/tablet/apple/ipad-pro-12-spacegray-2021.jpg',
             },
             {
-			    color: 'Light Blue',
-			    imgSrc: '/assets/tablet/plaid-shirt/Light Blue-full.webp',
-            },
-            {
-			    color: 'Pink',
-			    imgSrc: '/assets/tablet/plaid-shirt/Pink-full.webp',
-		    },
+			    color: 'Silver',
+			    imgSrc: '/assets/tablet/apple/ipad-pro-12-silver-2021.jpg',
+            }
 		],
-        size: [20, 24],
+        size: [128, 256, 512, 1, 2],
         material: '100% Polyester',
         reviews: [
             {
-                title: 'GOOD SHIRT',
+                title: 'GOOD PRODUCT',
                 name: 'hdsbfs',
                 date: '11/24/2020',
                 rating: 5.0,
@@ -416,26 +424,42 @@ const tablet = [
         ]
     },
     {
-        sku: '18',
+        sku: 'TAP18',
         label: 'Apple',
-        name: 'AppleTablet2',
-        price: 360.0,
+        name: 'iPad Air 4',
+        price: 749.0,
         salePrice: 0,
         productType: 'Tablet',
         barcode: '123456789',
-        tags: ['Vintage', 'Awesome', 'Summer', 'Beachwear'],
+        tags: ['Apple', 'Tablet', 'iPad Air', '64GB', '256GB'],
         status: 'Many in stock',
         
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque, nisl at convallis varius, arcu lacus aliquam enim, vitae aliquam magna urna quis odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque turpis velit, lacinia vel luctus vitae, sollicitudin ut justo.',
+        description: 'The iPad Air 4 ditches the dated design of the iPad Air 3, moving to a 10.9-inch, nearly edge-to-edge screen design that takes on the same design as the iPad Pro. The case appears to be the same size as the 11-inch iPad Pro, but the bezels are slightly thicker due to a difference in the display technology.',
         
         colors: [
 		    {
-			    color: 'Brown',
-			    imgSrc: '/assets/tablet/vachetta-bag/Brown.webp',
-            }
+			    color: 'Rose Gold',
+			    imgSrc: '/assets/tablet/apple/ipad-air-4-wifi-2020-rosegold.jpg',
+            },
+            {
+			    color: 'Silver',
+			    imgSrc: '/assets/tablet/apple/ipad-air-4-wifi-2020-silver.jpg',
+            },
+            {
+			    color: 'Space Gray',
+			    imgSrc: '/assets/tablet/apple/ipad-air-4-wifi-2020-space-gray.jpg',
+            },
+            {
+			    color: 'Sky Blue',
+			    imgSrc: '/assets/tablet/apple/ipad-air-4-wifi-2020-sky-blue.jpg',
+            },
+            {
+			    color: 'Green',
+			    imgSrc: '/assets/tablet/apple/ipad-air-4-wifi-2020-green.jpg',
+            },
             
 		],
-        size: [20, 24],
+        size: [64, 256],
         material: '100% Polyester',
         reviews: [
             {
@@ -457,27 +481,31 @@ const tablet = [
     {
         sku: '6',
         label: 'Apple',
-        name: 'AppleTablet3',
-        price: 120.0,
+        name: 'iPad Mini',
+        price: 549.0,
         salePrice: 0,
         productType: 'Tablet',
         barcode: '123456789',
-        tags: ['Sunglasses', 'Winter', 'Cool', 'Shorts', 'Nice'],
+        tags: ['Apple', 'Tablet', 'iPad Mini', '64GB', '256GB'],
         status: 'Many in stock',
         
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque, nisl at convallis varius, arcu lacus aliquam enim, vitae aliquam magna urna quis odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque turpis velit, lacinia vel luctus vitae, sollicitudin ut justo.',
+        description: 'iPad mini features a thin, light, and portable design that makes it the perfect on-the-go companion. At 0.66 pound and 6.1 mm thin,1 it’s easy to carry with you in one hand or take out of a pocket or bag whenever inspiration strikes.',
         
         colors: [
 		    {
-			    color: 'Brown',
-			    imgSrc: '/assets/tablet/douglas-belt/Brown.webp',
+			    color: 'Space Gray',
+			    imgSrc: '/assets/tablet/apple/ipad-mini-wifi-spacegray-2019.png',
             },
             {
-			    color: 'Black',
-			    imgSrc: '/assets/tablet/douglas-belt/Black.webp',
+			    color: 'Silver',
+			    imgSrc: '/assets/tablet/apple/ipad-mini-wifi-silver-2019.png',
             },
+            {
+			    color: 'Gold',
+			    imgSrc: '/assets/tablet/apple/ipad-mini-wifi-gold-2019.png',
+            }
 		],
-        size: [20, 24],
+        size: [64, 256],
         material: '100% Polyester',
         reviews: [
             {
@@ -490,25 +518,33 @@ const tablet = [
         ]
     },
     {
-        sku: '4',
+        sku: 'TAS4',
         label: 'samsung',
-        name: 'SamsungTablet2',
-        price: 80.0,
+        name: 'Samsung Galaxy Tab A7',
+        price: 279.99,
         salePrice: 0,
         productType: 'Tablet',
         barcode: '123456789',
-        tags: ['Sunglasses', 'Winter', 'Cool', 'Shorts', 'Nice'],
+        tags: ['Samsung', 'Tablet', 'Galaxy Tab A', '32GB', '64GB'],
         status: 'Many in stock',
         
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque, nisl at convallis varius, arcu lacus aliquam enim, vitae aliquam magna urna quis odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque turpis velit, lacinia vel luctus vitae, sollicitudin ut justo.',
+        description: 'Meet the slim, lightweight tablet with the entertainment experience you crave. Its 10.4-inch¹, ultra-widescreen display and Dolby Atmos surround sound speakers draw you in to movies and shows. The front-facing camera makes you feel like you’re in the same room with friends and family on video calls. And with a fast processor, long-lasting battery and up to 64MB of built-in storage, enjoy more of what you love—from streaming and browsing to music and photos.',
         
         colors: [
 		    {
-			    color: 'White',
-			    imgSrc: '/assets/tablet/custom-polo/White-front.webp',
-            }
+			    color: 'Gold',
+			    imgSrc: '/assets/tablet/samsung/samsung-galaxy-tab-a7-2020-gold.jpg',
+            },
+            {
+			    color: 'Silver',
+			    imgSrc: '/assets/tablet/samsung/samsung-galaxy-tab-a7-2020-silver.jpg',
+            },
+            {
+			    color: 'Dark Gray',
+			    imgSrc: '/assets/tablet/samsung/samsung-galaxy-tab-a7-2020-darkgray.jpg',
+            },
 		],
-        size: [20, 24],
+        size: [32, 64],
         material: '100% Polyester',
         reviews: [
             {

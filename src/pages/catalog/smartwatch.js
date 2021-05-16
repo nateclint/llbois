@@ -209,7 +209,7 @@ function Smartwatch(props) {
                                         <Link to className="text-muted" onClick={handleSetVendor('oppo')}>Oppo</Link>
                                     </li>
                                     <li className="list-group-item border-0 bg-transparent p-1">
-                                        <Link to className="text-muted" onClick={handleSetVendor('lenovo')}>Lenovo</Link>
+                                        <Link to className="text-muted" onClick={handleSetVendor('google')}>Google</Link>
                                     </li>
                                 </ul>
                             </div>

@@ -50,6 +50,7 @@ const phone = [
         tags: ['Huawei', 'Phone', 'Huawei Mate', '5G', '256GB', '512GB'],
         status: 'Many in stock',
         description: 'Huawei Mate 40 Pro is officially announced on October 22, 2020. \n The dimension of the device is 162.9 x 75.5 x 9.1 mm while it weighs 212 grams. \n The device is powered by the Kirin 9000 5G Octa-core processor while the GPU is Mali-G78 MP24. \n The smartphone is pack with 8 GB RAM and 256 GB internal storage. \n The smartphone comes with an OLED 6.76 inches screen size and the resolution is 1344 x 2772 pixels. \n It is IP68 dust/water resistant and built with a glass front, glass back, and aluminum frame. \n The rear camera consists of a 50 MP (wide) omnidirectional + 12 MP (periscope telephoto) optical zoom + 20 MP (ultrawide) while on the front there is 13 MP (wide) + TOF 3D (depth/biometrics sensor) camera. \n Huawei Mate 40 Pro includes sensors such as Face ID, fingerprint (under display, optical), accelerometer, gyro, proximity, barometer, compass, and color spectrum. \n The smartphone is fueled by a Non-removable Li-Po 4400 mAh battery + Fast battery charging 66W + Fast wireless charging 50W+ Reverse wireless charging 5W \n It comes in colors such as Mystic Silver, White, Black, Green, and Yellow. \n The phone runs on the Android 10.0 + EMUI 11 operating system.',
+        
         colors: [
 		    {
 			    color: 'Black',
@@ -113,28 +114,28 @@ const phone = [
         ]
     },
     {
-        sku: '493',
+        sku: 'PAS493',
         label: 'asus',
-        name: 'AsusPhone1',
-        price: 480.0,
+        name: 'ROG Phone 5 Ultimate',
+        price: 1554.0,
         salePrice: 0,
         productType: 'Phone',
         barcode: '123456789',
-        tags: ['Vintage', 'Awesome', 'Summer', 'Beachwear'],
+        tags: ['Asus', 'Phone', 'ROG Phone', '512GB'],
         status: 'Many in stock',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque, nisl at convallis varius, arcu lacus aliquam enim, vitae aliquam magna urna quis odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque turpis velit, lacinia vel luctus vitae, sollicitudin ut justo.',
+        description: 'Asus ROG Phone 5 Ultimate Excepted Price Start is   $1,050 to   $1,250,Asus ROG Phone 5 Ultimate comes with Android 11, 6.78 inches AMOLED Display, Snapdragon 888 (5 nm) Chipset, Triple Rear and 24MP Selfie Cameras.',
         colors: [
 		    {
-			    color: 'Gray',
-			    imgSrc: '/assets/phone/relaxed-shirt/Gray-full.webp',
+			    color: 'Phantom Black',
+			    imgSrc: '/assets/phone/asus/asus-rog-phone-5-ultimate-phantom-black.png',
 		    },
             {
-                color: 'Green',
-                imgSrc: '/assets/phone/relaxed-shirt/Green-full.webp',
+                color: 'Storm White',
+                imgSrc: '/assets/phone/asus/asus-rog-phone-5-ultimate-storm-white.jpg',
             },
            
 		],
-        size: [20, 24],
+        size: [512],
         material: '100% Polyester',
         reviews: [
             {
@@ -161,34 +162,41 @@ const phone = [
         ]
     },
     {
-        sku: '481',
+        sku: 'PSS481',
         label: 'samsung',
-        name: 'SamsungPhone1',
-        price: 440.0,
+        name: 'Galaxy S21 Ultra',
+        price: 549.99,
         salePrice: 0,
         productType: 'Phone',
         barcode: '123456789',
-        tags: ['Vintage', 'Awesome', 'Summer', 'Beachwear'],
+        tags: ['Samsung', 'Phone', 'Galaxy S', '128GB', '256GB'],
         status: 'You can purchase this product but it\'s out of stock',
-        imgScr: './res/phone/viscose-scarf/',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque, nisl at convallis varius, arcu lacus aliquam enim, vitae aliquam magna urna quis odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque turpis velit, lacinia vel luctus vitae, sollicitudin ut justo.',
+        description: 'We’ve outfitted the Galaxy A52 5G with some of our most awesome Galaxy innovations, so you can stream, capture and experience all the action at a price you’ll love.',
         
         colors: [
 		    {
-			    color: 'Blue',
-			    imgSrc: '/assets/phone/viscose-scarf/Blue-full.webp',
+			    color: 'Black',
+			    imgSrc: '/assets/phone/samsung/samsung-galaxy-s21-ultra-5g-black.jpg',
 		    },
 		    {
-			    color: 'Light Blue',
-			    imgSrc: '/assets/phone/viscose-scarf/Light Blue-full.webp',
+			    color: 'White',
+			    imgSrc: '/assets/phone/samsung/samsung-galaxy-s21-ultra-5g-white.jpeg',
             },
             {
-                color: 'Black',
-                imgSrc: '/assets/phone/viscose-scarf/Black.webp',
+                color: 'Brown',
+                imgSrc: '/assets/phone/samsung/samsung-galaxy-s21-ultra-5g-brown.jpg',
             },
+            {
+                color: 'Dark Grey',
+			    imgSrc: '/assets/phone/samsung/samsung-galaxy-s21-ultra-5g-dark-grey.png',
+            },
+            {
+                color: 'Silver',
+			    imgSrc: '/assets/phone/samsung/samsung-galaxy-s21-ultra-5g-silver.jpg',
+            }
             
 		],
-        size: [20, 24],
+        size: [128],
         material: '100% Polyester',
         reviews: [
             {
@@ -201,26 +209,41 @@ const phone = [
         ]
     },
     {
-        sku: '501',
-        label: 'Apple',
-        name: 'ApplePhone1',
-        price: 500.0,
+        sku: 'PAP501',
+        label: 'apple',
+        name: 'Iphone 12 Pro Max',
+        price: 1399.0,
         salePrice: 0,
         productType: 'Phone',
         barcode: '123456789',
-        tags: ['Vintage', 'Awesome', 'Summer', 'Beachwear'],
+        tags: ['Apple', 'Phone', 'Iphone', 'Iphone 12 Pro Max', '5G', '64GB', '128GB', '256GB', '512GB'],
         status: 'Many in stock',
-        description: 'No description for this product',
+        description: '5G goes Pro. A14 Bionic rockets past every other smartphone chip. The Pro camera system takes low-light photography to the next level — with an even bigger jump on iPhone 12 Pro Max. And Ceramic Shield delivers four times better drop performance',
         
         colors: [
 		    
 		    {
-			    color: 'Light Blue',
-			    imgSrc: '/assets/phone/product-layout/Light Blue-full.webp',
+			    color: 'Graphite',
+			    imgSrc: '/assets/phone/apple/Iphone12ProMax_5G_Graphite.png',
             },
+
+            {
+                color: 'Silver',
+                imgSrc: '/assets/phone/apple/Iphone12ProMax_5G_Silver.png'
+            },
+
+            {
+                color: 'Gold',
+                imgSrc: '/assets/phone/apple/Iphone12ProMax_5G_Gold.png'
+            },
+
+            {
+                color: 'Pacific Blue',
+                imgSrc: '/assets/phone/apple/Iphone12ProMax_5G_PacificBlue.png'
+            }
             
 		],
-        size: [20, 24],
+        size: [64, 128, 256, 512],
         material: '100% Polyester',
         reviews: [
             {
@@ -233,45 +256,82 @@ const phone = [
         ]
     },
     {
-        sku: '34',
+        sku: 'POP34',
         label: 'oppo',
-        name: 'OppoPhone1',
-        price: 180.0,
+        name: 'Find X3 Pro',
+        price: 1177.77,
         salePrice: 0,
         productType: 'Phone',
         barcode: '123456789',
-        tags: ['Vintage', 'Awesome', 'Summer', 'Beachwear', 'Sunglasses'],
+        tags: ['Oppo', 'Phone', 'Find X', '256GB'],
         status: 'Many in stock',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque, nisl at convallis varius, arcu lacus aliquam enim, vitae aliquam magna urna quis odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque turpis velit, lacinia vel luctus vitae, sollicitudin ut justo.',
+        description: 'Capture the colours of the world in their truest form with the revolutionary Find X3 Pro. Rich tones and deep hues combine to illuminate the road to the future.',
         
         colors: [
 		    {
-			    color: 'Black',
-			    imgSrc: '/assets/phone/rounded-glasses/Black.webp',
-		    } 
+			    color: 'Gross Black',
+			    imgSrc: '/assets/phone/oppo/oppo-find-x3-black.png',
+		    },
+            {
+			    color: 'Blue',
+			    imgSrc: '/assets/phone/oppo/oppo-find-x3-blue.png',
+		    }
 		],
-        size: [20, 24, 35, 40],
+        size: [256],
         material: '100% Polyester',
-        reviews: []
+        reviews: [
+            {
+                title: 'NICE',
+                name: 'Nice',
+                date: '08/29/2020',
+                rating: 5.0,
+                comment: 'Nice product'
+            }
+        ]
     },
     {
-        sku: '43',
+        sku: 'PAP43',
         label: 'apple',
-        name: 'ApplePhone2',
-        price: 360.0,
+        name: 'Iphone 12',
+        price: 949.0,
         salePrice: 0,
         productType: 'Phone',
         barcode: '123456789',
-        tags: ['Sunglasses', 'Winter', 'Shorts', 'Cool', 'Nice'],
+        tags: ['Apple', 'Phone', 'Iphone', 'Iphone 12', '5G', '64GB', '128GB', '256GB'],
         status: 'Many in stock',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque, nisl at convallis varius, arcu lacus aliquam enim, vitae aliquam magna urna quis odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque turpis velit, lacinia vel luctus vitae, sollicitudin ut justo.',
+        description: '5G speed. A14 Bionic, the fastest chip in a smartphone. An edge-to-edge OLED display. Ceramic Shield with four times better drop performance. And Night mode on every camera. iPhone 12 has it all — in two perfect sizes.',
         colors: [
 		    {
-			    color: 'Yellow',
-			    imgSrc: '/assets/phone/woven-glasses/Yellow.webp',
-		    }
+			    color: 'White',
+			    imgSrc: '/assets/phone/apple/iphone-12-white-2020.png',
+		    },
+
+            {
+			    color: 'Black',
+			    imgSrc: '/assets/phone/apple/iphone-12-black-2020.png',
+		    },
+            
+            {
+			    color: 'Blue',
+			    imgSrc: '/assets/phone/apple/iphone-12-blue-2020.png',
+		    },
+
+            {
+			    color: 'Green',
+			    imgSrc: '/assets/phone/apple/iphone-12-green-2020.png',
+		    },
+
+            {
+			    color: 'Purple',
+			    imgSrc: '/assets/phone/apple/iphone-12-purple-2021.png',
+		    },
+
+            {
+			    color: 'Red',
+			    imgSrc: '/assets/phone/apple/iphone-12-red-2020.png',
+		    },
 		],
-        size: [20, 24, 30, 35],
+        size: [64, 128, 256],
         material: '100% Polyester',
         reviews: [
             {

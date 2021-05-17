@@ -109,7 +109,7 @@ function Item(props) {
                         </div>
 
                         <div className="prod___size">
-                            <span style={{ fontSize: 0.9 + 'rem', fontWeight: 500 }}>SIZE</span>
+                            <span style={{ fontSize: 0.9 + 'rem', fontWeight: 500 }}>STORAGE</span>
                             {
                                 productData.size.map((index, value) => {
                                     var active = (index === size) ? 'active' : ''
@@ -123,6 +123,7 @@ function Item(props) {
                                     )
                                 })
                             }
+                            <span style={{ fontSize: 0.9 + 'rem', fontWeight: 500 }}> GB</span>
 
                         </div>
                         <button className="btn-addtocart btn btn-primary" onClick={addToBasket} style={{marginTop:20, marginBottom: 30}}>

@@ -13,15 +13,12 @@ function ProductItem({ data }) {
 
     const [checkWishlist, setCheckWishlist] = useState(false)
     const history = useHistory()
-    const [imgSrc, setImgSrc] = useState(data.colors[0].imgSrc);
-    const [imgColor, setImgColor] = useState(data.colors[0].color);
     const [openQuickView, setopenQuickView] = useState(false);
-    const [size, setSize] = useState(data.size[0]);
+    
+    var size = data.size[0];
 
-    useEffect(() => {
-        setImgSrc(data.colors[0].imgSrc)
-        setImgColor(data.colors[0].color)
-    }, [])
+    var quickView_imgSrc = data.colors[0].imgSrc;
+    var quickView_imgColor = data.colors[0].color;
 
     useEffect(() => {
         db
@@ -54,7 +51,7 @@ function ProductItem({ data }) {
             productType: data.productType,
             description: data.description,
             tags: data.tags,
-            colors: [{ color: imgColor, imgSrc: imgSrc }],
+            colors: [{ color: data.colors[0].color, imgSrc: data.colors[0].imgSrc }],
             material: data.material,
             size: size
         }
@@ -66,17 +63,17 @@ function ProductItem({ data }) {
         })
     };
 
-    const changeSize = (size) => (event) => {
-        event.preventDefault()
+    const changeSize = (s) => (event) => {
+        event.preventDefault();
 
-        setSize(size)
+        size = s;
     }
 
     const changeImg = (srcImg, color) => (event) => {
         event.preventDefault();
 
-        setImgColor(color);
-        setImgSrc(srcImg);
+        quickView_imgSrc = srcImg;
+        quickView_imgColor = color;
 
     };
 
@@ -150,7 +147,7 @@ function ProductItem({ data }) {
                         <div className="row">
                             <div className="col-12 col-md-5 col-lg-6">
                                 <div className="product-img">
-                                    <ReactImageZoom {...{ width: 440, img: `${imgSrc}`, zoomPosition: 'original' }} />
+                                    <ReactImageZoom {...{ width: 440, img: `${quickView_imgSrc}`, zoomPosition: 'original' }} />
                                 </div>
                             </div>
                             <div className="col-12 col-md-7 col-lg-6">
@@ -163,17 +160,18 @@ function ProductItem({ data }) {
                                     <p style={{ fontSize: 0.85 + 'rem', fontWeight: 500 }}>
                                         {"COLOR: "}
                                         <span style={{ color: '#fe8e26', fontSize: 0.85 + 'rem', fontWeight: 500 }}>
-                                            {imgColor}
+                                            {quickView_imgColor}
                                         </span>
                                     </p>
                                     <div className="modal-prod-opt-block">
                                         <ul className="opt-items">
                                             {
                                                 data.colors.map((index, value) => {
-                                                    var active = (index.imgSrc === imgSrc) ? 'active' : ''
+                                                    var active = (index.imgSrc === quickView_imgSrc) ? 'active' : ''
 
                                                     return (
-                                                        <li key={value} className={active ? 'active' : ''} onClick={changeImg(index.imgSrc, index.color)}>
+                                                        // <li key={value} className={active ? 'active' : ''} onClick={changeImg(index.imgSrc, index.color)}>
+                                                        <li key={value} className={active ? 'active' : ''}>
                                                             <a href className={"opt-" + `${value + 1}`}>
                                                                 <img src={index.imgSrc} alt="" />
                                                             </a>
@@ -185,7 +183,7 @@ function ProductItem({ data }) {
                                     </div>
 
                                     <div className="prod___size">
-                                        <span style={{ fontSize: 0.9 + 'rem', fontWeight: 500 }}>SIZE</span>
+                                        <span style={{ fontSize: 0.9 + 'rem', fontWeight: 500 }}>STORAGE</span>
                                         {
                                             data.size.map((index, value) => {
                                                 var active = (index === size) ? 'active' : ''
@@ -199,6 +197,7 @@ function ProductItem({ data }) {
                                                 )
                                             })
                                         }
+                                        <span style={{ fontSize: 0.9 + 'rem', fontWeight: 500 }}> GB</span>
 
                                     </div>
                                     <button className="btn-addtocart btn btn-primary" onClick={addToBasket} style={{marginTop:20, marginBottom: 30}}>
@@ -248,7 +247,7 @@ function ProductItem({ data }) {
                                 }
                             }
                         }>
-                            <img src={imgSrc} alt="" style={{ width: 100 + '%' }} />
+                            <img src={data.colors[0].imgSrc} alt="" style={{ width: 100 + '%' }} />
                         </Link>
                     </span>
 
@@ -300,10 +299,11 @@ function ProductItem({ data }) {
                         {
                             data.colors.map((index, value) => {
 
-                                var active = (index.imgSrc === imgSrc) ? 'active' : ''
+                                var active = (index.imgSrc === data.colors[0].imgSrc) ? 'active' : ''
                                 //console.log('value', value)
                                 return (
-                                    <li key={value} className={active ? 'active' : ''} onClick={changeImg(index.imgSrc, index.color)}>
+                                    //<li key={value} className={active ? 'active' : ''} onClick={changeImg(index.imgSrc, index.color)}>
+                                    <li key={value} className={active ? 'active' : ''} >
                                         <Link to className={"opt-" + `${value + 1}`}>
                                             <img src={index.imgSrc} alt="" />
                                         </Link>

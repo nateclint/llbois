@@ -581,14 +581,14 @@ const tablet = [
 exports.tablet = tablet
 const smartwatch = [
     {
-        sku: '244',
+        sku: 'APSM',
         label: 'apple',
-        name: 'AppleWatch1',
-        price: 480.0,
+        name: 'Apple Watch Series 6',
+        price: 399.0,
         salePrice: 0,
-        productType: 'smartwatch',
+        productType: 'Smartwatch',
         barcode: '123456789',
-        tags: ['Vintage', 'Awesome', 'Summer', 'Beachwear'],
+        tags: ['Apple', 'Smart Watch', 'Series 6', 'Health tracking'],
         status: 'Many in stock',
         
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque, nisl at convallis varius, arcu lacus aliquam enim, vitae aliquam magna urna quis odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque turpis velit, lacinia vel luctus vitae, sollicitudin ut justo.',
@@ -596,39 +596,86 @@ const smartwatch = [
         colors: [
 		    {
 			    color: 'Blue',
-			    imgSrc: '/assets/smartwatch/faxon-sneaker/Blue.webp',
+			    imgSrc: '/assets/smartwatch/apple-watch/aws6-blue.jpg',
             },
             {
-			    color: 'Brown',
-			    imgSrc: '/assets/smartwatch/faxon-sneaker/Brown.webp',
+			    color: 'Black',
+			    imgSrc: '/assets/smartwatch/apple-watch/aws6-black.jpg',
             },
             {
-			    color: 'Gray',
-			    imgSrc: '/assets/smartwatch/faxon-sneaker/Gray.webp',
+			    color: 'Pink',
+			    imgSrc: '/assets/smartwatch/apple-watch/aws6-pink.jpg',
+		    },
+            {
+			    color: 'Red',
+			    imgSrc: '/assets/smartwatch/apple-watch/aws6-red.jpg',
 		    },
         ],
         
-        size: [20, 24],
-        material: '100% Polyester',
+        size: [32],
+        material: 'Aluminum, titanium and stainless steel',
         reviews: [
             {
-                title: 'DSFSDFS',
-                name: 'fdgdf',
-                date: '08/10/2020',
+                title: 'Good choice',
+                name: 'Donald Trump',
+                date: '08/5/2021',
                 rating: 5.0,
-                comment: 'dfsdfs'
+                comment: 'A very wise choice'
             }
         ]
     },
+
     {
-        sku: '30',
+        sku: 'APSMSE',
+        label: 'apple',
+        name: 'Apple Watch SE',
+        price: 329.0,
+        salePrice: 0,
+        productType: 'Smartwatch',
+        barcode: '123456789',
+        tags: ['Apple', 'Smart Watch', 'SE', 'Health tracking'],
+        status: 'Many in stock',
+        
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque, nisl at convallis varius, arcu lacus aliquam enim, vitae aliquam magna urna quis odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque turpis velit, lacinia vel luctus vitae, sollicitudin ut justo.',
+        
+        colors: [
+		    {
+			    color: 'White',
+			    imgSrc: '/assets/smartwatch/apple-watch/awse-white.jpg',
+            },
+            {
+			    color: 'Black',
+			    imgSrc: '/assets/smartwatch/apple-watch/awse-black.jpg',
+            },
+            {
+			    color: 'Pink',
+			    imgSrc: '/assets/smartwatch/apple-watch/awse-pink.jpg',
+		    },
+
+        ],
+        
+        size: [32],
+        material: 'Aluminum, titanium and stainless steel',
+        reviews: [
+            {
+                title: 'Good choice',
+                name: 'Baron Trump',
+                date: '14/5/2021',
+                rating: 5.0,
+                comment: 'A very wise choice if you choose this'
+            }
+        ]
+    },
+
+    {
+        sku: 'SSSM',
         label: 'samsung',
-        name: 'SamsungWatch1',
-        price: 100.0,
+        name: 'Samsung Watch Active 2',
+        price: 259.0,
         salePrice: 0,
         productType: 'smartwatch',
         barcode: '123456789',
-        tags: ['Sunglasses', 'Winter', 'Cool', 'Shorts', 'Nice'],
+        tags: ['Samsung', 'Active 2', 'Smart Watch', 'Health Tracking'],
         status: 'Many in stock',
         
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque, nisl at convallis varius, arcu lacus aliquam enim, vitae aliquam magna urna quis odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque turpis velit, lacinia vel luctus vitae, sollicitudin ut justo.',
@@ -636,12 +683,16 @@ const smartwatch = [
         colors: [
 		    {
 			    color: 'Pink',
-			    imgSrc: '/assets/smartwatch/pink-sneaker/Pink.webp',
+			    imgSrc: '/assets/smartwatch/samsung-watch/ssa3-pink.jpg',
+            },
+            {
+			    color: 'Black',
+			    imgSrc: '/assets/smartwatch/samsung-watch/ssa3-black.jpg',
             }
         ],
         
-        size: [20, 24],
-        material: '100% Polyester',
+        size: [4],
+        material: 'Aluminum and stainless steel',
         reviews: [
             {
                 title: 'VERRY GOOD',
@@ -660,27 +711,67 @@ const smartwatch = [
         ]
     },
     {
-        sku: '28',
-        label: 'apple',
-        name: 'AppleWatch2',
-        price: 60.0,
+        sku: 'XMSML',
+        label: 'xiaomi',
+        name: 'Xiao Mi Watch Lite',
+        price: 69.0,
         salePrice: 0,
         productType: 'smartwatch',
         barcode: '123456789',
-        tags: ['Vintage', 'Awesome', 'Summer', 'Beachwear'],
+        tags: ['Xiao Mi', 'Smart Watch', 'Waterproof', 'Watch Lite', "Health tracking"],
         status: 'Many in stock',
         
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque, nisl at convallis varius, arcu lacus aliquam enim, vitae aliquam magna urna quis odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque turpis velit, lacinia vel luctus vitae, sollicitudin ut justo.',
         
         colors: [
 		    {
-			    color: 'Brown',
-			    imgSrc: '/assets/smartwatch/rae-sandal/Brown.webp',
+			    color: 'Blue',
+			    imgSrc: '/assets/smartwatch/xiaomi-watch/xmwl-blue.jpg',
+            },
+            {
+			    color: 'Black',
+			    imgSrc: '/assets/smartwatch/xiaomi-watch/xmwl-black.jpg',
+            },
+            {
+			    color: 'White',
+			    imgSrc: '/assets/smartwatch/xiaomi-watch/xmwl-white.jpg',
             }
         ],
         
         size: [20, 24],
-        material: '100% Polyester',
+        material: 'Aluminum, silicon',
+        reviews: []
+    },
+    {
+        sku: 'XMSM',
+        label: 'xiaomi',
+        name: 'Xiaomi Mi Watch',
+        price: 119.0,
+        salePrice: 0,
+        productType: 'smartwatch',
+        barcode: '123456789',
+        tags: ['Xiao Mi', 'Smart Watch', 'Waterproof', 'Mi Watch', "Health tracking"],
+        status: 'Many in stock',
+        
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque, nisl at convallis varius, arcu lacus aliquam enim, vitae aliquam magna urna quis odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque turpis velit, lacinia vel luctus vitae, sollicitudin ut justo.',
+        
+        colors: [
+		    {
+			    color: 'Blue',
+			    imgSrc: '/assets/smartwatch/xiaomi-watch/xmmw5-blue.jpg',
+            },
+            {
+			    color: 'Black',
+			    imgSrc: '/assets/smartwatch/xiaomi-watch/xmmw5-black.jpg',
+            },
+            {
+			    color: 'White',
+			    imgSrc: '/assets/smartwatch/xiaomi-watch/xmmw5-white.jpg',
+            }
+        ],
+        
+        size: [20, 24],
+        material: 'Aluminum, silicon',
         reviews: []
     }
 ]

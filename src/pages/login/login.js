@@ -1,21 +1,15 @@
-import React, { useState, useEffect, useRef } from 'react'
+import React, { useState, useEffect } from 'react'
 import './login.css'
 import { auth } from '../../firebase'
 import { Link, useHistory } from 'react-router-dom'
 import Snackbar from '@material-ui/core/Snackbar';
 import Alert from '@material-ui/lab/Alert';
-import CircularProgress from '@material-ui/core/CircularProgress';
-import ReCAPTCHA from 'react-google-recaptcha'
-import axios from '../../axios';
-
-const PUBLIC_RECAPTCHA_KEY = '6LcYficaAAAAADjQAOjTXJN6kD8cs4LDHQvHE_4l'
 
 function LoginPage() {
   const history = useHistory()
 
-  const [captchaToken, setCaptchaToken] = useState(null)
   const [loadingLogin, setLoadingLogin] = useState(false)
-  const [disabled, setDisabled] = useState(true)
+  const [disabled, setDisabled] = useState(false)
   const [openLogin, setOpenLogin] = useState('block')
   const [openForgot, setopenForgot] = useState('none')
 
@@ -33,15 +27,6 @@ function LoginPage() {
   const [message, setMessage] = useState('')
   const { open, vertical, horizontal } = snack
 
-  useEffect(() => {
-    if (captchaToken) {
-      setDisabled(false)
-    }
-    else {
-      setDisabled(true)
-    }
-
-  }, [captchaToken])
   const handleOpenSnackbar = (mess, alertType) => {
     setAlertType(alertType)
     setMessage(mess)
@@ -67,38 +52,21 @@ function LoginPage() {
     e.preventDefault()
     setLoadingLogin(true)
 
-    await axios.post('/login-with-captcha',
-      {
-        token: captchaToken
-      })
-      .then(response => {
-        let { success } = response.data
-
-        if (success) {
-          auth
-            .signInWithEmailAndPassword(email, password)
-            .then((auth) => {
-              if (auth) {
-                history.push('/')
-              }
-
-            })
-            .catch((error) => {
-              console.log('auth-err: ', error)
-
-              if (error.code === 'auth/user-not-found' || error.code === 'auth/wrong-password') {
-                let message = 'Invalid email or password'
-                handleOpenSnackbar(message, 'error')
-              }
-            })
+    auth
+      .signInWithEmailAndPassword(email, password)
+      .then((auth) => {
+        if (auth) {
+          history.push('/')
         }
-        else {
-          let message = 'You are not human or reCaptchaFail. Please reload page!'
+
+      })
+      .catch((error) => {
+        console.log('auth-err: ', error)
+
+        if (error.code === 'auth/user-not-found' || error.code === 'auth/wrong-password') {
+          let message = 'Invalid email or password'
           handleOpenSnackbar(message, 'error')
         }
-      })
-      .catch(error => {
-        console.log(error, 'google response');
       })
 
     setLoadingLogin(false)
@@ -119,13 +87,6 @@ function LoginPage() {
       })
   }
 
-  const onChangeReCAPTCHA = (token) => {
-    setCaptchaToken(token)
-  }
-
-  const handleCaptchaExpired = () => {
-    setCaptchaToken(null)
-  }
   return (
     <div className="pageContent">
       <div className="login-section">
@@ -176,7 +137,6 @@ function LoginPage() {
                           />
                         </div>
 
-                        <ReCAPTCHA sitekey={PUBLIC_RECAPTCHA_KEY} size='normal' onChange={onChangeReCAPTCHA} onExpired={handleCaptchaExpired} />
                         <div className="form-go">
                           <div className="form-group">
                             <button type="submit" className="btn" disabled={loadingLogin || disabled}>

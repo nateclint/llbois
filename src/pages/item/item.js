@@ -12,9 +12,9 @@ function Item(props) {
     const [top, setTop] = useState(0)
     const [left, setLeft] = useState(0)
 
-    const disqusShortName = 'llbois'
+    const disqusShortName = 'llbois-store-web-app'
     const configDisqus = {
-        url: 'https://llbois-group08.web.app/item/' + productData.sku,
+        url: 'https://llbois-store.web.app/item/' + productData.sku,
         identifier: productData.sku,
         title: productData.name
     }

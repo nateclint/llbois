@@ -3,13 +3,13 @@ import firebase from 'firebase'
 
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyBZVETd-8u0MqLBEDK5oDLAfO8TKd5CKzs",
-  authDomain: "llbois-group08.firebaseapp.com",
-  projectId: "llbois-group08",
-  storageBucket: "llbois-group08.appspot.com",
-  messagingSenderId: "809557629865",
-  appId: "1:809557629865:web:d0e90b030000beb21482b8",
-  measurementId: "G-18YNTXMNWW"
+  apiKey: "AIzaSyBKqxqp-NqSttlsddXVn6gKS0DC6nlgaRA",
+  authDomain: "llbois-store.firebaseapp.com",
+  databaseURL: "https://llbois-store-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "llbois-store",
+  storageBucket: "llbois-store.appspot.com",
+  messagingSenderId: "144830695031",
+  appId: "1:144830695031:web:ead58d3926aa737ad6a872"
 };
 
 const firebaseApp = firebase.initializeApp(firebaseConfig)

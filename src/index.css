@@ -17,6 +17,13 @@ code {
   --color-primary: #fe8e26;
 }
 
+.text-primary {
+  color: var(--color-primary) !important;
+} .btn-primary, .nav-link.active {
+  background-color: var(--color-primary) !important;
+  border-color: var(--color-primary) !important;
+}
+
 ion-icon {
   font-size: 20px;
   margin-bottom: -4px;

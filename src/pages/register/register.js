@@ -5,10 +5,6 @@ import { Link, useHistory } from 'react-router-dom'
 import Snackbar from '@material-ui/core/Snackbar';
 import Alert from '@material-ui/lab/Alert';
 import { db } from '../../firebase'
-import ReCAPTCHA from 'react-google-recaptcha'
-import axios from '../../axios';
-
-const PUBLIC_RECAPTCHA_KEY = '6LcYficaAAAAADjQAOjTXJN6kD8cs4LDHQvHE_4l'
 
 function Register() {
   const history = useHistory()
@@ -31,16 +27,6 @@ function Register() {
 
   const [message, setMessage] = useState('')
   const { open, vertical, horizontal } = snack
-
-  useEffect(() => {
-    if (captchaToken) {
-      setDisabled(false)
-    }
-    else {
-      setDisabled(true)
-    }
-
-  }, [captchaToken])
 
   useEffect(() => {
     if (password != null) {
@@ -83,39 +69,20 @@ function Register() {
     e.preventDefault()
     setLoading(true)
 
-    await axios.post('/login-with-captcha',
-      {
-        token: captchaToken
-      })
-      .then(response => {
-        let { success } = response.data
+    //Firebase createUser
+    auth
+    .createUserWithEmailAndPassword(email, password)
+    .then((auth) => {
 
-        if (success) {
+      if (auth) {
+        setUserInfoToFireStore(auth)
+      }
 
-          //Firebase createUser
-          auth
-            .createUserWithEmailAndPassword(email, password)
-            .then((auth) => {
-
-              if (auth) {
-                setUserInfoToFireStore(auth)
-              }
-
-            })
-            .catch(error => {
-              console.log(error)
-              handleOpenSnackbar(error.message)
-            })
-        }
-        else {
-          let message = 'You are not human or reCaptchaFail. Please reload page!'
-          handleOpenSnackbar(message)
-        }
-      })
-      .catch(error => {
-        console.log(error, 'google response');
-      })
-
+    })
+    .catch(error => {
+      console.log(error)
+      handleOpenSnackbar(error.message)
+    })
 
     setLoading(false)
   }
@@ -197,7 +164,7 @@ function Register() {
                             : ''
                         }
                       </div>
-                      <ReCAPTCHA sitekey={PUBLIC_RECAPTCHA_KEY} size='normal' onChange={onChangeReCAPTCHA} onExpired={handleCaptchaExpired} />
+                      
                       <div className="form-go">
                         <div className="form-group">
                           <button

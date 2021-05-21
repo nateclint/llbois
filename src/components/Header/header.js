@@ -31,11 +31,8 @@ function Header() {
                         <Link to="/">HOME</Link>
                       </li>
 
-
-                      
                       <li className="dropdown">
                         <Link to="/phone">PHONE</Link>
-
                         <div className="dropdown-menu">
                           <div className="row">
                             <div className="col-sm-9">
@@ -97,9 +94,74 @@ function Header() {
                           </div>
                         </div>
                       </li>
+
                       <li className="dropdown">
                         <Link to="/tablet">TABLET</Link>
+                        <div className="dropdown-menu">
+                          <div className="row">
+                            <div className="col-sm-9">
+                              <div className="row col-list">
+                                <div className="col-sm-4">
+                                  <Link className="title-submenu">
+                                    APPLE
+                                    <img src="assets/header/mm_04_400x.png" alt="" />
+                                  </Link>
+                                  <ul>
+                                    <li>iPhone 12 Pro</li>
+                                    <li>Coming Soon</li>
+                                    <li>Coming Soon</li>
+                                    <li>Coming Soon</li>
+                                  </ul>
+                                </div>
+                                <div className="col-sm-4">
+                                  <Link className="title-submenu">
+                                    SAMSUNG
+                                    <img src="assets/header/mm_05_400x.png" alt="" />
+                                  </Link>
+                                  <ul>
+                                    <li>Galaxy S21</li>
+                                    <li>Coming Soon</li>
+                                    <li>Coming Soon</li>
+                                    <li>Coming Soon</li>
+                                  </ul>
+                                </div>
+                                <div className="col-sm-4">
+                                  <Link className="title-submenu">
+                                    ACCESSORIES
+                                    <img src="assets/header/mm_06_400x.png" alt="" />
+                                  </Link>
+                                  <ul>
+                                    <li>ANKER PowerCore Elite 20000mAh</li>
+                                    <li>Coming Soon</li>
+                                    <li>Coming Soon</li>
+                                    <li>Coming Soon</li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                            <div className="col-sm-3">
+                              <div className="p-offset-7">
+                                <Link className="promo-02">
+                                  <img src="assets/header/mm_03_410x.png" alt="promo" />
 
+                                  <div className="promo-decription">
+                                    <div className="promo-txt-wrapper">
+                                      <div className="small-promo">SALE</div>
+                                      <div className="big-promo">70% OFF</div>
+                                      <p>Free shipping on all VN orders or order above $99</p>
+                                      <span>SHOP NOW </span>
+                                    </div>
+                                  </div>
+                                </Link>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+
+
+                      <li className="dropdown">
+                        <Link to="/smartwatch">WATCH</Link>
                         <div className="dropdown-menu">
                           <div className="row">
                             <div className="col-sm-9">

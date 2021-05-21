@@ -103,13 +103,13 @@ function Cart() {
                           <img src={index.data.colors[0].imgSrc} alt="boots" className="w-50" />
                         </div>
                         <div className="col-8 row p-0 m-0">
-                          <div className="col-md-3 col-sm-12 py-1">
+                          <div className="col-md-6 col-sm-12 py-1">
                             <span>{index.data.name}</span>
                           </div>
-                          <div className="col-md-2 col-sm-12 py-1">
+                          <div className="col-md-6 col-sm-12 py-1">
                             <span>{currencyFormat(index.data.price)}</span>
                           </div>
-                          <div className="col-md-5 col-sm-12 py-1">
+                          {/* <div className="col-md-5 col-sm-12 py-1">
                             <div className="row">
                               <div className="input-group col-md-12 col-sm-6">
                                 <span className="input-group-btn bg-light rounded-left">
@@ -140,9 +140,9 @@ function Cart() {
                           </div>
                           <div className="col-md-2 col-sm-12 py-1">
                             <span>{currencyFormat(index.data.price * quantity)}</span>
-                          </div>
+                          </div> */}
                         </div>
-                        <div className="col-1 pl-4">
+                        <div className="col-2 p-0">
                           <div className="text-muted" onClick={removeItem(index.data.sku)}>
                             <ion-icon name="trash-outline"></ion-icon>
                           </div>

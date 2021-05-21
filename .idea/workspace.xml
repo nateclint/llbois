@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c89ed665-ec11-4c7d-aaa9-ad88f0a64619" name="Default Changelist" comment="" />
+    <list default="true" id="c89ed665-ec11-4c7d-aaa9-ad88f0a64619" name="Default Changelist" comment="merge with remote">
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,7 +47,16 @@
       <option name="presentableId" value="Default" />
       <updated>1621531512332</updated>
       <workItem from="1621531515874" duration="477000" />
+      <workItem from="1621532073675" duration="258000" />
     </task>
+    <task id="LOCAL-00001" summary="merge with remote">
+      <created>1621532257245</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1621532257245</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -61,5 +72,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="merge with remote" />
+    <option name="LAST_COMMIT_MESSAGE" value="merge with remote" />
   </component>
 </project>

@@ -91,12 +91,12 @@ class Home extends React.Component {
                                                 </Link>
                                             </div>
                                             <div className="col-sm-12">
-                                                <Link to='/shoes' className="promo-box hover-scale">
+                                                <Link to='/smartwatch' className="promo-box hover-scale">
                                                     <img className="" alt="Pic" src="assets/pagecontent/section-2/demo01_08_633x.jpg" srcset={`assets/pagecontent/section-2/demo01_08_633x.jpg 1x, assets/pagecontent/section-2/demo01_08_1266x.jpg 2x`} />
 
                                                     <div className="s2-decription">
                                                         <div className="s2-decription-wrap">
-                                                            <div className="dec-content">SHOES</div>
+                                                            <div className="dec-content">Smart Watch</div>
                                                         </div>
                                                     </div>
                                                 </Link>

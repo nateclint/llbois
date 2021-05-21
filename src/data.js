@@ -591,7 +591,7 @@ const smartwatch = [
         tags: ['Apple', 'Smart Watch', 'Series 6', 'Health tracking'],
         status: 'Many in stock',
         
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque, nisl at convallis varius, arcu lacus aliquam enim, vitae aliquam magna urna quis odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque turpis velit, lacinia vel luctus vitae, sollicitudin ut justo.',
+        description: 'Apple Watch Series 6 delivers many notable hardware improvements, including a faster S6 System in Package (SiP) and next-generation always-on altimeter, along with its most colorful lineup yet, featuring a beautiful palette of new case finishes and bands. watchOS 7 brings Family Setup, sleep tracking, automatic handwashing detection, new workout types, and the ability to curate and share watch faces, encouraging customers to be more active, stay connected, and better manage their health in new ways.',
         
         colors: [
 		    {
@@ -636,7 +636,7 @@ const smartwatch = [
         tags: ['Apple', 'Smart Watch', 'SE', 'Health tracking'],
         status: 'Many in stock',
         
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque, nisl at convallis varius, arcu lacus aliquam enim, vitae aliquam magna urna quis odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque turpis velit, lacinia vel luctus vitae, sollicitudin ut justo.',
+        description: 'Apple Watch SE has the same larger display size Retina display as Series 6, so you can see even more at a glance. Advanced sensors to track all your fitness and workout goals. And powerful features to keep you healthy and safe. The Sleep app lets you set a bedtime routine and track your sleep. And with cellular service, you can go without your phone. Its a lot of watch for a lot less than you expected. Pair your Apple Watch SE with Verizon, the network more people rely on.',
         
         colors: [
 		    {
@@ -678,7 +678,7 @@ const smartwatch = [
         tags: ['Samsung', 'Active 2', 'Smart Watch', 'Health Tracking'],
         status: 'Many in stock',
         
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque, nisl at convallis varius, arcu lacus aliquam enim, vitae aliquam magna urna quis odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque turpis velit, lacinia vel luctus vitae, sollicitudin ut justo.',
+        description: 'The latest digital watch launched by Samsung is the Samsung Galaxy Watch Active 2 Aluminum. The smartphone is expected to release in the month of September 2019. The smartwatch weighs 30 g (1.06 oz) and it is built with Front glass and aluminum frame. The smartwatch comes in various colors like Cloud Silver, Aqua Black, and Pink Gold. The body of the Samsung Galaxy Watch Active 2 Aluminum is 1.4 inches screen and the screen type of the smartphone watch Super AMOLED capacitive touchscreen. The screen is protected by Corning Gorilla Glass DX+ and it is incorporated with Always-on display. The device runs on a Tizen-based wearable operating system. The smartwatch has a RAM of 768 GB and the storage capacity if 4 GB (or 1.5 GB RAM (LTE model)) which is great for a wearable device. The watch has sensors like Accelerometer, gyro, heart rate, and barometer. The device also features GPS, with GLONASS, GALILEO, BDS.',
         
         colors: [
 		    {
@@ -721,7 +721,7 @@ const smartwatch = [
         tags: ['Xiao Mi', 'Smart Watch', 'Waterproof', 'Watch Lite', "Health tracking"],
         status: 'Many in stock',
         
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque, nisl at convallis varius, arcu lacus aliquam enim, vitae aliquam magna urna quis odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque turpis velit, lacinia vel luctus vitae, sollicitudin ut justo.',
+        description: 'The smartwatch features a 1.4 inches IPS LCD capacitive touchscreen that provides a resolution of 320 x 320 pixels. The PPI density is 323 and the screen-to-body ratio is 44.1%. The dimension of the Xiaomi Redmi Watch Lite is 41 x 35 x 11.9 mm and it weighs 35 grams. It is Waterproof (5ATM) + 50m water-resistant while the device can be paired with the help of Bluetooth 5.0. It is available in various colors such as Black, Blue, and Ivory. The device is fueled with a Non-removable Li-Ion 230 mAh battery while the sensors include an Accelerometer, gyro, heart rate, and barometer.',
         
         colors: [
 		    {
@@ -753,7 +753,7 @@ const smartwatch = [
         tags: ['Xiao Mi', 'Smart Watch', 'Waterproof', 'Mi Watch', "Health tracking"],
         status: 'Many in stock',
         
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque, nisl at convallis varius, arcu lacus aliquam enim, vitae aliquam magna urna quis odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque turpis velit, lacinia vel luctus vitae, sollicitudin ut justo.',
+        description: 'iaomi Mi Watch has 1.78 Inch (4.52 cm) AMOLED Display display for apps and other functions of the smartwatch. On the specifications front this smartwatch sports a 570 mAh battery capacity battery (to keep it alive optimally), 8 GB internal memory and 1 GB RAM.',
         
         colors: [
 		    {
